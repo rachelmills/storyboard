@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0DA58E17D8AA4D000CBCDD /* 2012-02-06_141550_settings_icon_rawx482.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0DA58D17D8AA4D000CBCDD /* 2012-02-06_141550_settings_icon_rawx482.jpg */; };
+		1F0DA59017D8ACAB000CBCDD /* settingicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0DA58F17D8ACAB000CBCDD /* settingicon.png */; };
+		1F0DA59217D8B1B4000CBCDD /* currencylarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0DA59117D8B1B4000CBCDD /* currencylarge.png */; };
 		1F3AD41517D234B80090042F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41417D234B80090042F /* UIKit.framework */; };
 		1F3AD41717D234B90090042F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41617D234B80090042F /* Foundation.framework */; };
 		1F3AD41917D234B90090042F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41817D234B90090042F /* CoreGraphics.framework */; };
@@ -16,14 +19,38 @@
 		1F3AD42717D234B90090042F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42617D234B90090042F /* Default.png */; };
 		1F3AD42917D234B90090042F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42817D234B90090042F /* Default@2x.png */; };
 		1F3AD42B17D234B90090042F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42A17D234B90090042F /* Default-568h@2x.png */; };
-		1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.storyboard */; };
-		1F3AD43117D234B90090042F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42F17D234B90090042F /* MainStoryboard_iPad.storyboard */; };
+		1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */; };
 		1F3AD43417D234B90090042F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3AD43317D234B90090042F /* ViewController.m */; };
 		1F3AD43C17D234BB0090042F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD43B17D234BB0090042F /* SenTestingKit.framework */; };
 		1F3AD43D17D234BB0090042F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41417D234B80090042F /* UIKit.framework */; };
 		1F3AD43E17D234BB0090042F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41617D234B80090042F /* Foundation.framework */; };
 		1F3AD44617D234BB0090042F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD44417D234BB0090042F /* InfoPlist.strings */; };
 		1F3AD44917D234BB0090042F /* storyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3AD44817D234BB0090042F /* storyboardTests.m */; };
+		1FDFFE0217D75CEA0008925A /* currencyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0117D75CEA0008925A /* currencyicon.png */; };
+		1FDFFE0417D75D580008925A /* fbicon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0317D75D580008925A /* fbicon-1.png */; };
+		1FDFFE0617D75FA20008925A /* weathericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0517D75FA20008925A /* weathericon.png */; };
+		1FDFFE0817D7B5400008925A /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0717D7B5400008925A /* taxi.png */; };
+		1FDFFE0A17D7B66C0008925A /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0917D7B66C0008925A /* mapicon.png */; };
+		1FDFFE0E17D7B7C70008925A /* voltageicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0D17D7B7C70008925A /* voltageicon.png */; };
+		1FDFFE1017D7B8B50008925A /* roadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFFE0F17D7B8B50008925A /* roadicon.png */; };
+		1FE529B817D49DAA00E081DA /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE529B717D49DAA00E081DA /* map.png */; };
+		1FE529C617D4AFEA00E081DA /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE529C517D4AFEA00E081DA /* friends.png */; };
+		1FE529C817D4B0D600E081DA /* power plug.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE529C717D4B0D600E081DA /* power plug.png */; };
+		1FE529CA17D4B33900E081DA /* Contact-Methods-Phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE529C917D4B33900E081DA /* Contact-Methods-Phone-icon.png */; };
+		7048600D17D57D9B00E52CB0 /* Drive Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7048600A17D57D9B00E52CB0 /* Drive Background.png */; };
+		7048600E17D57D9B00E52CB0 /* Plug Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7048600B17D57D9B00E52CB0 /* Plug Background.png */; };
+		7048600F17D57D9B00E52CB0 /* Taxi Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7048600C17D57D9B00E52CB0 /* Taxi Background.png */; };
+		7073032E17D863360043F04D /* friendmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073032D17D863360043F04D /* friendmap.png */; };
+		7073033017D865020043F04D /* airporticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073032F17D865020043F04D /* airporticon.png */; };
+		7073033217D865070043F04D /* brisbaneairporticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073033117D865070043F04D /* brisbaneairporticon.png */; };
+		7073033417D865170043F04D /* restauranticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073033317D865170043F04D /* restauranticon.png */; };
+		70EFDDB517D4598F00825299 /* tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EFDDB417D4598F00825299 /* tool57.png */; };
+		70EFDDB717D4599300825299 /* tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EFDDB617D4599300825299 /* tool114.png */; };
+		70FD2E3817D85403008B8D3B /* friend 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3717D85403008B8D3B /* friend 1.png */; };
+		70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3917D854C4008B8D3B /* friend 2.png */; };
+		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
+		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
+		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,29 +64,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F3AD41117D234B80090042F /* storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0DA58D17D8AA4D000CBCDD /* 2012-02-06_141550_settings_icon_rawx482.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2012-02-06_141550_settings_icon_rawx482.jpg"; sourceTree = "<group>"; };
+		1F0DA58F17D8ACAB000CBCDD /* settingicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingicon.png; sourceTree = "<group>"; };
+		1F0DA59117D8B1B4000CBCDD /* currencylarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currencylarge.png; sourceTree = "<group>"; };
+		1F3AD41117D234B80090042F /* iTravelTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTravelTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3AD41417D234B80090042F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F3AD41617D234B80090042F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F3AD41817D234B90090042F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1F3AD41C17D234B90090042F /* storyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "storyboard-Info.plist"; sourceTree = "<group>"; };
+		1F3AD41C17D234B90090042F /* iTravelTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTravelTool-Info.plist"; sourceTree = "<group>"; };
 		1F3AD41E17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F3AD42017D234B90090042F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F3AD42217D234B90090042F /* storyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "storyboard-Prefix.pch"; sourceTree = "<group>"; };
+		1F3AD42217D234B90090042F /* iTravelTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTravelTool-Prefix.pch"; sourceTree = "<group>"; };
 		1F3AD42317D234B90090042F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F3AD42417D234B90090042F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F3AD42617D234B90090042F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1F3AD42817D234B90090042F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F3AD42A17D234B90090042F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1F3AD42D17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		1F3AD43017D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1F3AD42D17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.Storyboard; sourceTree = "<group>"; };
 		1F3AD43217D234B90090042F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F3AD43317D234B90090042F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1F3AD43A17D234BB0090042F /* storyboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3AD43A17D234BB0090042F /* iTravelToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTravelToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3AD43B17D234BB0090042F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F3AD44317D234BB0090042F /* storyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "storyboardTests-Info.plist"; sourceTree = "<group>"; };
+		1F3AD44317D234BB0090042F /* iTravelToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTravelToolTests-Info.plist"; sourceTree = "<group>"; };
 		1F3AD44517D234BB0090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F3AD44717D234BB0090042F /* storyboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storyboardTests.h; sourceTree = "<group>"; };
 		1F3AD44817D234BB0090042F /* storyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardTests.m; sourceTree = "<group>"; };
+		1FDFFE0117D75CEA0008925A /* currencyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currencyicon.png; sourceTree = "<group>"; };
+		1FDFFE0317D75D580008925A /* fbicon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbicon-1.png"; sourceTree = "<group>"; };
+		1FDFFE0517D75FA20008925A /* weathericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weathericon.png; sourceTree = "<group>"; };
+		1FDFFE0717D7B5400008925A /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
+		1FDFFE0917D7B66C0008925A /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
+		1FDFFE0D17D7B7C70008925A /* voltageicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voltageicon.png; sourceTree = "<group>"; };
+		1FDFFE0F17D7B8B50008925A /* roadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadicon.png; sourceTree = "<group>"; };
+		1FE529B717D49DAA00E081DA /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		1FE529C517D4AFEA00E081DA /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		1FE529C717D4B0D600E081DA /* power plug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power plug.png"; sourceTree = "<group>"; };
+		1FE529C917D4B33900E081DA /* Contact-Methods-Phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact-Methods-Phone-icon.png"; sourceTree = "<group>"; };
+		7048600A17D57D9B00E52CB0 /* Drive Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drive Background.png"; sourceTree = "<group>"; };
+		7048600B17D57D9B00E52CB0 /* Plug Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plug Background.png"; sourceTree = "<group>"; };
+		7048600C17D57D9B00E52CB0 /* Taxi Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taxi Background.png"; sourceTree = "<group>"; };
+		7073032D17D863360043F04D /* friendmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friendmap.png; sourceTree = "<group>"; };
+		7073032F17D865020043F04D /* airporticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airporticon.png; sourceTree = "<group>"; };
+		7073033117D865070043F04D /* brisbaneairporticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brisbaneairporticon.png; sourceTree = "<group>"; };
+		7073033317D865170043F04D /* restauranticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restauranticon.png; sourceTree = "<group>"; };
+		70EFDDB417D4598F00825299 /* tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool57.png; path = ../tool57.png; sourceTree = "<group>"; };
+		70EFDDB617D4599300825299 /* tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool114.png; path = ../tool114.png; sourceTree = "<group>"; };
+		70FD2E3717D85403008B8D3B /* friend 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 1.png"; sourceTree = "<group>"; };
+		70FD2E3917D854C4008B8D3B /* friend 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 2.png"; sourceTree = "<group>"; };
+		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
+		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +143,7 @@
 		1F3AD40817D234B80090042F = {
 			isa = PBXGroup;
 			children = (
-				1F3AD41A17D234B90090042F /* storyboard */,
+				1F3AD41A17D234B90090042F /* iTravelTool */,
 				1F3AD44117D234BB0090042F /* storyboardTests */,
 				1F3AD41317D234B80090042F /* Frameworks */,
 				1F3AD41217D234B80090042F /* Products */,
@@ -99,8 +153,8 @@
 		1F3AD41217D234B80090042F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F3AD41117D234B80090042F /* storyboard.app */,
-				1F3AD43A17D234BB0090042F /* storyboardTests.octest */,
+				1F3AD41117D234B80090042F /* iTravelTool.app */,
+				1F3AD43A17D234BB0090042F /* iTravelToolTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,27 +170,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1F3AD41A17D234B90090042F /* storyboard */ = {
+		1F3AD41A17D234B90090042F /* iTravelTool */ = {
 			isa = PBXGroup;
 			children = (
 				1F3AD42317D234B90090042F /* AppDelegate.h */,
 				1F3AD42417D234B90090042F /* AppDelegate.m */,
-				1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.storyboard */,
-				1F3AD42F17D234B90090042F /* MainStoryboard_iPad.storyboard */,
+				1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */,
 				1F3AD43217D234B90090042F /* ViewController.h */,
 				1F3AD43317D234B90090042F /* ViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
 			);
+			name = iTravelTool;
 			path = storyboard;
 			sourceTree = "<group>";
 		};
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F3AD41C17D234B90090042F /* storyboard-Info.plist */,
+				70EFDDB617D4599300825299 /* tool114.png */,
+				70EFDDB417D4598F00825299 /* tool57.png */,
+				1FDFFE0317D75D580008925A /* fbicon-1.png */,
+				1FE529C717D4B0D600E081DA /* power plug.png */,
+				1FDFFE0117D75CEA0008925A /* currencyicon.png */,
+				1F0DA58D17D8AA4D000CBCDD /* 2012-02-06_141550_settings_icon_rawx482.jpg */,
+				ADE23F5B17D9BC110088533C /* currency.png */,
+				1F0DA58F17D8ACAB000CBCDD /* settingicon.png */,
+				1FDFFE0F17D7B8B50008925A /* roadicon.png */,
+				1FDFFE0D17D7B7C70008925A /* voltageicon.png */,
+				1F0DA59117D8B1B4000CBCDD /* currencylarge.png */,
+				1FDFFE0917D7B66C0008925A /* mapicon.png */,
+				ADE23F5917D9B8600088533C /* Settings.png */,
+				1FDFFE0517D75FA20008925A /* weathericon.png */,
+				1FDFFE0717D7B5400008925A /* taxi.png */,
+				1FE529C917D4B33900E081DA /* Contact-Methods-Phone-icon.png */,
+				1FE529C517D4AFEA00E081DA /* friends.png */,
+				1FE529B717D49DAA00E081DA /* map.png */,
+				7048600A17D57D9B00E52CB0 /* Drive Background.png */,
+				70FD2E3917D854C4008B8D3B /* friend 2.png */,
+				7048600B17D57D9B00E52CB0 /* Plug Background.png */,
+				7048600C17D57D9B00E52CB0 /* Taxi Background.png */,
+				7073033317D865170043F04D /* restauranticon.png */,
+				7073032F17D865020043F04D /* airporticon.png */,
+				7073033117D865070043F04D /* brisbaneairporticon.png */,
+				7073032D17D863360043F04D /* friendmap.png */,
+				70FD2E3717D85403008B8D3B /* friend 1.png */,
+				1F3AD41C17D234B90090042F /* iTravelTool-Info.plist */,
+				70FD2E3B17D8550B008B8D3B /* friend 3.png */,
 				1F3AD41D17D234B90090042F /* InfoPlist.strings */,
 				1F3AD42017D234B90090042F /* main.m */,
-				1F3AD42217D234B90090042F /* storyboard-Prefix.pch */,
+				1F3AD42217D234B90090042F /* iTravelTool-Prefix.pch */,
 				1F3AD42617D234B90090042F /* Default.png */,
 				1F3AD42817D234B90090042F /* Default@2x.png */,
 				1F3AD42A17D234B90090042F /* Default-568h@2x.png */,
@@ -157,7 +239,7 @@
 		1F3AD44217D234BB0090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F3AD44317D234BB0090042F /* storyboardTests-Info.plist */,
+				1F3AD44317D234BB0090042F /* iTravelToolTests-Info.plist */,
 				1F3AD44417D234BB0090042F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,9 +248,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F3AD41017D234B80090042F /* storyboard */ = {
+		1F3AD41017D234B80090042F /* iTravelTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3AD44C17D234BB0090042F /* Build configuration list for PBXNativeTarget "storyboard" */;
+			buildConfigurationList = 1F3AD44C17D234BB0090042F /* Build configuration list for PBXNativeTarget "iTravelTool" */;
 			buildPhases = (
 				1F3AD40D17D234B80090042F /* Sources */,
 				1F3AD40E17D234B80090042F /* Frameworks */,
@@ -178,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = storyboard;
+			name = iTravelTool;
 			productName = storyboard;
-			productReference = 1F3AD41117D234B80090042F /* storyboard.app */;
+			productReference = 1F3AD41117D234B80090042F /* iTravelTool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F3AD43917D234BB0090042F /* storyboardTests */ = {
+		1F3AD43917D234BB0090042F /* iTravelToolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3AD44F17D234BB0090042F /* Build configuration list for PBXNativeTarget "storyboardTests" */;
+			buildConfigurationList = 1F3AD44F17D234BB0090042F /* Build configuration list for PBXNativeTarget "iTravelToolTests" */;
 			buildPhases = (
 				1F3AD43517D234BB0090042F /* Sources */,
 				1F3AD43617D234BB0090042F /* Frameworks */,
@@ -197,9 +279,9 @@
 			dependencies = (
 				1F3AD44017D234BB0090042F /* PBXTargetDependency */,
 			);
-			name = storyboardTests;
+			name = iTravelToolTests;
 			productName = storyboardTests;
-			productReference = 1F3AD43A17D234BB0090042F /* storyboardTests.octest */;
+			productReference = 1F3AD43A17D234BB0090042F /* iTravelToolTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +293,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = .;
 			};
-			buildConfigurationList = 1F3AD40C17D234B80090042F /* Build configuration list for PBXProject "storyboard" */;
+			buildConfigurationList = 1F3AD40C17D234B80090042F /* Build configuration list for PBXProject "iTravelTool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +305,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F3AD41017D234B80090042F /* storyboard */,
-				1F3AD43917D234BB0090042F /* storyboardTests */,
+				1F3AD41017D234B80090042F /* iTravelTool */,
+				1F3AD43917D234BB0090042F /* iTravelToolTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,8 +320,35 @@
 				1F3AD42717D234B90090042F /* Default.png in Resources */,
 				1F3AD42917D234B90090042F /* Default@2x.png in Resources */,
 				1F3AD42B17D234B90090042F /* Default-568h@2x.png in Resources */,
-				1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.storyboard in Resources */,
-				1F3AD43117D234B90090042F /* MainStoryboard_iPad.storyboard in Resources */,
+				1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.Storyboard in Resources */,
+				70EFDDB517D4598F00825299 /* tool57.png in Resources */,
+				70EFDDB717D4599300825299 /* tool114.png in Resources */,
+				1FE529B817D49DAA00E081DA /* map.png in Resources */,
+				1FE529C617D4AFEA00E081DA /* friends.png in Resources */,
+				1FE529C817D4B0D600E081DA /* power plug.png in Resources */,
+				1FE529CA17D4B33900E081DA /* Contact-Methods-Phone-icon.png in Resources */,
+				7048600D17D57D9B00E52CB0 /* Drive Background.png in Resources */,
+				7048600E17D57D9B00E52CB0 /* Plug Background.png in Resources */,
+				7048600F17D57D9B00E52CB0 /* Taxi Background.png in Resources */,
+				1FDFFE0217D75CEA0008925A /* currencyicon.png in Resources */,
+				1FDFFE0417D75D580008925A /* fbicon-1.png in Resources */,
+				1FDFFE0617D75FA20008925A /* weathericon.png in Resources */,
+				1FDFFE0817D7B5400008925A /* taxi.png in Resources */,
+				1FDFFE0A17D7B66C0008925A /* mapicon.png in Resources */,
+				1FDFFE0E17D7B7C70008925A /* voltageicon.png in Resources */,
+				1FDFFE1017D7B8B50008925A /* roadicon.png in Resources */,
+				70FD2E3817D85403008B8D3B /* friend 1.png in Resources */,
+				70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */,
+				70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */,
+				7073032E17D863360043F04D /* friendmap.png in Resources */,
+				7073033017D865020043F04D /* airporticon.png in Resources */,
+				7073033217D865070043F04D /* brisbaneairporticon.png in Resources */,
+				7073033417D865170043F04D /* restauranticon.png in Resources */,
+				1F0DA58E17D8AA4D000CBCDD /* 2012-02-06_141550_settings_icon_rawx482.jpg in Resources */,
+				1F0DA59017D8ACAB000CBCDD /* settingicon.png in Resources */,
+				1F0DA59217D8B1B4000CBCDD /* currencylarge.png in Resources */,
+				ADE23F5A17D9B8600088533C /* Settings.png in Resources */,
+				ADE23F5C17D9BC110088533C /* currency.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +402,7 @@
 /* Begin PBXTargetDependency section */
 		1F3AD44017D234BB0090042F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F3AD41017D234B80090042F /* storyboard */;
+			target = 1F3AD41017D234B80090042F /* iTravelTool */;
 			targetProxy = 1F3AD43F17D234BB0090042F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -307,20 +416,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.storyboard */ = {
+		1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1F3AD42D17D234B90090042F /* en */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1F3AD42F17D234B90090042F /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F3AD43017D234B90090042F /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
+			name = MainStoryboard_iPhone.Storyboard;
 			sourceTree = "<group>";
 		};
 		1F3AD44417D234BB0090042F /* InfoPlist.strings */ = {
@@ -396,9 +497,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "storyboard/storyboard-Prefix.pch";
-				INFOPLIST_FILE = "storyboard/storyboard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "storyboard/iTravelTool-Prefix.pch";
+				INFOPLIST_FILE = "storyboard/iTravelTool-Info.plist";
+				PRODUCT_NAME = iTravelTool;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,9 +509,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "storyboard/storyboard-Prefix.pch";
-				INFOPLIST_FILE = "storyboard/storyboard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "storyboard/iTravelTool-Prefix.pch";
+				INFOPLIST_FILE = "storyboard/iTravelTool-Info.plist";
+				PRODUCT_NAME = iTravelTool;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,8 +527,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "storyboard/storyboard-Prefix.pch";
-				INFOPLIST_FILE = "storyboardTests/storyboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "storyboardTests/iTravelToolTests-Info.plist";
+				PRODUCT_NAME = iTravelToolTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -441,8 +544,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "storyboard/storyboard-Prefix.pch";
-				INFOPLIST_FILE = "storyboardTests/storyboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "storyboardTests/iTravelToolTests-Info.plist";
+				PRODUCT_NAME = iTravelToolTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -451,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F3AD40C17D234B80090042F /* Build configuration list for PBXProject "storyboard" */ = {
+		1F3AD40C17D234B80090042F /* Build configuration list for PBXProject "iTravelTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3AD44A17D234BB0090042F /* Debug */,
@@ -460,21 +563,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F3AD44C17D234BB0090042F /* Build configuration list for PBXNativeTarget "storyboard" */ = {
+		1F3AD44C17D234BB0090042F /* Build configuration list for PBXNativeTarget "iTravelTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3AD44D17D234BB0090042F /* Debug */,
 				1F3AD44E17D234BB0090042F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1F3AD44F17D234BB0090042F /* Build configuration list for PBXNativeTarget "storyboardTests" */ = {
+		1F3AD44F17D234BB0090042F /* Build configuration list for PBXNativeTarget "iTravelToolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3AD45017D234BB0090042F /* Debug */,
 				1F3AD45117D234BB0090042F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
