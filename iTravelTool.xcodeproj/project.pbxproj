@@ -19,7 +19,7 @@
 		1F3AD42717D234B90090042F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42617D234B90090042F /* Default.png */; };
 		1F3AD42917D234B90090042F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42817D234B90090042F /* Default@2x.png */; };
 		1F3AD42B17D234B90090042F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42A17D234B90090042F /* Default-568h@2x.png */; };
-		1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */; };
+		1F3AD42E17D234B90090042F /* MainStoryboard.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */; };
 		1F3AD43417D234B90090042F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3AD43317D234B90090042F /* ViewController.m */; };
 		1F3AD43C17D234BB0090042F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD43B17D234BB0090042F /* SenTestingKit.framework */; };
 		1F3AD43D17D234BB0090042F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AD41417D234B80090042F /* UIKit.framework */; };
@@ -49,6 +49,26 @@
 		70FD2E3817D85403008B8D3B /* friend 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3717D85403008B8D3B /* friend 1.png */; };
 		70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3917D854C4008B8D3B /* friend 2.png */; };
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
+		AD86888517FEB45200CF888A /* Cloud-Hail.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887C17FEB45200CF888A /* Cloud-Hail.png */; };
+		AD86888617FEB45200CF888A /* Cloud-Fog.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887D17FEB45200CF888A /* Cloud-Fog.png */; };
+		AD86888717FEB45200CF888A /* Wind-svg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887E17FEB45200CF888A /* Wind-svg.png */; };
+		AD86888817FEB45200CF888A /* Snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887F17FEB45200CF888A /* Snowflake.png */; };
+		AD86888917FEB45200CF888A /* Umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888017FEB45200CF888A /* Umbrella.png */; };
+		AD86888A17FEB45200CF888A /* Cloud-Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888117FEB45200CF888A /* Cloud-Sun.png */; };
+		AD86888B17FEB45200CF888A /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888217FEB45200CF888A /* Moon.png */; };
+		AD86888C17FEB45200CF888A /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888317FEB45200CF888A /* Sun.png */; };
+		AD86888D17FEB45200CF888A /* Cloud-Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888417FEB45200CF888A /* Cloud-Moon.png */; };
+		AD8688A217FEC6F900CF888A /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889017FEC6F800CF888A /* AFHTTPClient.m */; };
+		AD8688A317FEC6F900CF888A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889217FEC6F800CF888A /* AFHTTPRequestOperation.m */; };
+		AD8688A417FEC6F900CF888A /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889417FEC6F800CF888A /* AFImageRequestOperation.m */; };
+		AD8688A517FEC6F900CF888A /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889617FEC6F900CF888A /* AFJSONRequestOperation.m */; };
+		AD8688A617FEC6F900CF888A /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889817FEC6F900CF888A /* AFNetworkActivityIndicatorManager.m */; };
+		AD8688A717FEC6F900CF888A /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889B17FEC6F900CF888A /* AFPropertyListRequestOperation.m */; };
+		AD8688A817FEC6F900CF888A /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889D17FEC6F900CF888A /* AFURLConnectionOperation.m */; };
+		AD8688A917FEC6F900CF888A /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86889F17FEC6F900CF888A /* AFXMLRequestOperation.m */; };
+		AD8688AA17FEC6F900CF888A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8688A117FEC6F900CF888A /* UIImageView+AFNetworking.m */; };
+		AD8688AC17FEC71C00CF888A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8688AB17FEC71C00CF888A /* Security.framework */; };
+		AD8688B017FED03400CF888A /* Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8688AF17FED03400CF888A /* Cloud.png */; };
 		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
 		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
@@ -80,7 +100,7 @@
 		1F3AD42617D234B90090042F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1F3AD42817D234B90090042F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F3AD42A17D234B90090042F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1F3AD42D17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.Storyboard; sourceTree = "<group>"; };
+		1F3AD42D17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.Storyboard; sourceTree = "<group>"; };
 		1F3AD43217D234B90090042F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F3AD43317D234B90090042F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F3AD43A17D234BB0090042F /* iTravelToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTravelToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +132,36 @@
 		70FD2E3717D85403008B8D3B /* friend 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 1.png"; sourceTree = "<group>"; };
 		70FD2E3917D854C4008B8D3B /* friend 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 2.png"; sourceTree = "<group>"; };
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
+		AD86887C17FEB45200CF888A /* Cloud-Hail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Hail.png"; sourceTree = "<group>"; };
+		AD86887D17FEB45200CF888A /* Cloud-Fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Fog.png"; sourceTree = "<group>"; };
+		AD86887E17FEB45200CF888A /* Wind-svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wind-svg.png"; sourceTree = "<group>"; };
+		AD86887F17FEB45200CF888A /* Snowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snowflake.png; sourceTree = "<group>"; };
+		AD86888017FEB45200CF888A /* Umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umbrella.png; sourceTree = "<group>"; };
+		AD86888117FEB45200CF888A /* Cloud-Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Sun.png"; sourceTree = "<group>"; };
+		AD86888217FEB45200CF888A /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		AD86888317FEB45200CF888A /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		AD86888417FEB45200CF888A /* Cloud-Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Moon.png"; sourceTree = "<group>"; };
+		AD86888F17FEC6F800CF888A /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		AD86889017FEC6F800CF888A /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		AD86889117FEC6F800CF888A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AD86889217FEC6F800CF888A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AD86889317FEC6F800CF888A /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		AD86889417FEC6F800CF888A /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		AD86889517FEC6F900CF888A /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		AD86889617FEC6F900CF888A /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		AD86889717FEC6F900CF888A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AD86889817FEC6F900CF888A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AD86889917FEC6F900CF888A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AD86889A17FEC6F900CF888A /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		AD86889B17FEC6F900CF888A /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		AD86889C17FEC6F900CF888A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AD86889D17FEC6F900CF888A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AD86889E17FEC6F900CF888A /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		AD86889F17FEC6F900CF888A /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		AD8688A017FEC6F900CF888A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		AD8688A117FEC6F900CF888A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AD8688AB17FEC71C00CF888A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AD8688AF17FED03400CF888A /* Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud.png; sourceTree = "<group>"; };
 		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8688AC17FEC71C00CF888A /* Security.framework in Frameworks */,
 				1F3AD41517D234B80090042F /* UIKit.framework in Frameworks */,
 				1F3AD41717D234B90090042F /* Foundation.framework in Frameworks */,
 				1F3AD41917D234B90090042F /* CoreGraphics.framework in Frameworks */,
@@ -143,6 +194,7 @@
 		1F3AD40817D234B80090042F = {
 			isa = PBXGroup;
 			children = (
+				AD86888E17FEC6F800CF888A /* AFNetworking */,
 				1F3AD41A17D234B90090042F /* iTravelTool */,
 				1F3AD44117D234BB0090042F /* storyboardTests */,
 				1F3AD41317D234B80090042F /* Frameworks */,
@@ -162,6 +214,7 @@
 		1F3AD41317D234B80090042F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD8688AB17FEC71C00CF888A /* Security.framework */,
 				1F3AD41417D234B80090042F /* UIKit.framework */,
 				1F3AD41617D234B80090042F /* Foundation.framework */,
 				1F3AD41817D234B90090042F /* CoreGraphics.framework */,
@@ -175,7 +228,7 @@
 			children = (
 				1F3AD42317D234B90090042F /* AppDelegate.h */,
 				1F3AD42417D234B90090042F /* AppDelegate.m */,
-				1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */,
+				1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */,
 				1F3AD43217D234B90090042F /* ViewController.h */,
 				1F3AD43317D234B90090042F /* ViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
@@ -187,6 +240,7 @@
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD86887B17FEB42600CF888A /* Weather */,
 				70EFDDB617D4599300825299 /* tool114.png */,
 				70EFDDB417D4598F00825299 /* tool57.png */,
 				1FDFFE0317D75D580008925A /* fbicon-1.png */,
@@ -229,9 +283,9 @@
 		1F3AD44117D234BB0090042F /* storyboardTests */ = {
 			isa = PBXGroup;
 			children = (
+				1F3AD44217D234BB0090042F /* Supporting Files */,
 				1F3AD44717D234BB0090042F /* storyboardTests.h */,
 				1F3AD44817D234BB0090042F /* storyboardTests.m */,
-				1F3AD44217D234BB0090042F /* Supporting Files */,
 			);
 			path = storyboardTests;
 			sourceTree = "<group>";
@@ -243,6 +297,51 @@
 				1F3AD44417D234BB0090042F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = storyboardTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		AD86887B17FEB42600CF888A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				AD86887C17FEB45200CF888A /* Cloud-Hail.png */,
+				AD8688AF17FED03400CF888A /* Cloud.png */,
+				AD86887D17FEB45200CF888A /* Cloud-Fog.png */,
+				AD86887E17FEB45200CF888A /* Wind-svg.png */,
+				AD86887F17FEB45200CF888A /* Snowflake.png */,
+				AD86888017FEB45200CF888A /* Umbrella.png */,
+				AD86888117FEB45200CF888A /* Cloud-Sun.png */,
+				AD86888217FEB45200CF888A /* Moon.png */,
+				AD86888317FEB45200CF888A /* Sun.png */,
+				AD86888417FEB45200CF888A /* Cloud-Moon.png */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		AD86888E17FEC6F800CF888A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AD86888F17FEC6F800CF888A /* AFHTTPClient.h */,
+				AD86889017FEC6F800CF888A /* AFHTTPClient.m */,
+				AD86889117FEC6F800CF888A /* AFHTTPRequestOperation.h */,
+				AD86889217FEC6F800CF888A /* AFHTTPRequestOperation.m */,
+				AD86889317FEC6F800CF888A /* AFImageRequestOperation.h */,
+				AD86889417FEC6F800CF888A /* AFImageRequestOperation.m */,
+				AD86889517FEC6F900CF888A /* AFJSONRequestOperation.h */,
+				AD86889617FEC6F900CF888A /* AFJSONRequestOperation.m */,
+				AD86889717FEC6F900CF888A /* AFNetworkActivityIndicatorManager.h */,
+				AD86889817FEC6F900CF888A /* AFNetworkActivityIndicatorManager.m */,
+				AD86889917FEC6F900CF888A /* AFNetworking.h */,
+				AD86889A17FEC6F900CF888A /* AFPropertyListRequestOperation.h */,
+				AD86889B17FEC6F900CF888A /* AFPropertyListRequestOperation.m */,
+				AD86889C17FEC6F900CF888A /* AFURLConnectionOperation.h */,
+				AD86889D17FEC6F900CF888A /* AFURLConnectionOperation.m */,
+				AD86889E17FEC6F900CF888A /* AFXMLRequestOperation.h */,
+				AD86889F17FEC6F900CF888A /* AFXMLRequestOperation.m */,
+				AD8688A017FEC6F900CF888A /* UIImageView+AFNetworking.h */,
+				AD8688A117FEC6F900CF888A /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = "../../AFNetworking-master/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +419,7 @@
 				1F3AD42717D234B90090042F /* Default.png in Resources */,
 				1F3AD42917D234B90090042F /* Default@2x.png in Resources */,
 				1F3AD42B17D234B90090042F /* Default-568h@2x.png in Resources */,
-				1F3AD42E17D234B90090042F /* MainStoryboard_iPhone.Storyboard in Resources */,
+				1F3AD42E17D234B90090042F /* MainStoryboard.Storyboard in Resources */,
 				70EFDDB517D4598F00825299 /* tool57.png in Resources */,
 				70EFDDB717D4599300825299 /* tool114.png in Resources */,
 				1FE529B817D49DAA00E081DA /* map.png in Resources */,
@@ -349,6 +448,16 @@
 				1F0DA59217D8B1B4000CBCDD /* currencylarge.png in Resources */,
 				ADE23F5A17D9B8600088533C /* Settings.png in Resources */,
 				ADE23F5C17D9BC110088533C /* currency.png in Resources */,
+				AD86888517FEB45200CF888A /* Cloud-Hail.png in Resources */,
+				AD86888617FEB45200CF888A /* Cloud-Fog.png in Resources */,
+				AD86888717FEB45200CF888A /* Wind-svg.png in Resources */,
+				AD86888817FEB45200CF888A /* Snowflake.png in Resources */,
+				AD86888917FEB45200CF888A /* Umbrella.png in Resources */,
+				AD86888A17FEB45200CF888A /* Cloud-Sun.png in Resources */,
+				AD86888B17FEB45200CF888A /* Moon.png in Resources */,
+				AD86888C17FEB45200CF888A /* Sun.png in Resources */,
+				AD86888D17FEB45200CF888A /* Cloud-Moon.png in Resources */,
+				AD8688B017FED03400CF888A /* Cloud.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +495,15 @@
 				1F3AD42117D234B90090042F /* main.m in Sources */,
 				1F3AD42517D234B90090042F /* AppDelegate.m in Sources */,
 				1F3AD43417D234B90090042F /* ViewController.m in Sources */,
+				AD8688A217FEC6F900CF888A /* AFHTTPClient.m in Sources */,
+				AD8688A317FEC6F900CF888A /* AFHTTPRequestOperation.m in Sources */,
+				AD8688A417FEC6F900CF888A /* AFImageRequestOperation.m in Sources */,
+				AD8688A517FEC6F900CF888A /* AFJSONRequestOperation.m in Sources */,
+				AD8688A617FEC6F900CF888A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				AD8688A717FEC6F900CF888A /* AFPropertyListRequestOperation.m in Sources */,
+				AD8688A817FEC6F900CF888A /* AFURLConnectionOperation.m in Sources */,
+				AD8688A917FEC6F900CF888A /* AFXMLRequestOperation.m in Sources */,
+				AD8688AA17FEC6F900CF888A /* UIImageView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +534,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1F3AD42C17D234B90090042F /* MainStoryboard_iPhone.Storyboard */ = {
+		1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1F3AD42D17D234B90090042F /* en */,
 			);
-			name = MainStoryboard_iPhone.Storyboard;
+			name = MainStoryboard.Storyboard;
 			sourceTree = "<group>";
 		};
 		1F3AD44417D234BB0090042F /* InfoPlist.strings */ = {
