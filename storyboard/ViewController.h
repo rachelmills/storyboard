@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 
 #define DarkSkyURL @"https://api.forecast.io/forecast/"
 #define API @"84f8f82d46fd524ccf2a24a5c44c8e97"
@@ -16,5 +17,10 @@
 #define LON @",-73.6927"
 #define UNITS @"?units=si"
 #define fullURL  (DarkSkyURL API LAT LON UNITS)
+
+- (IBAction)viewTomorrow:(id)sender;
+
+- (void)locateMe:(id)sender;
+
 
 @end

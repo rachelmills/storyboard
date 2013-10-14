@@ -49,6 +49,7 @@
 		70FD2E3817D85403008B8D3B /* friend 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3717D85403008B8D3B /* friend 1.png */; };
 		70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3917D854C4008B8D3B /* friend 2.png */; };
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
+		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
 		AD72F6841803C27B0083845E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6741803C27B0083845E /* AFImageRequestOperation.m */; };
@@ -132,6 +133,7 @@
 		70FD2E3717D85403008B8D3B /* friend 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 1.png"; sourceTree = "<group>"; };
 		70FD2E3917D854C4008B8D3B /* friend 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 2.png"; sourceTree = "<group>"; };
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
+		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		AD72F6711803C27B0083845E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */,
 				AD8688AC17FEC71C00CF888A /* Security.framework in Frameworks */,
 				1F3AD41517D234B80090042F /* UIKit.framework in Frameworks */,
 				1F3AD41717D234B90090042F /* Foundation.framework in Frameworks */,
@@ -194,6 +197,7 @@
 		1F3AD40817D234B80090042F = {
 			isa = PBXGroup;
 			children = (
+				AD5C5383180C229C0081B808 /* CoreLocation.framework */,
 				AD72F66E1803C27B0083845E /* AFNetworking */,
 				1F3AD41A17D234B90090042F /* iTravelTool */,
 				1F3AD44117D234BB0090042F /* storyboardTests */,

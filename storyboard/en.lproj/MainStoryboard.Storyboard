@@ -49,6 +49,10 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="viewTomorrow:" destination="nYP-kn-qHi" eventType="touchUpInside" id="NmP-dF-YbD"/>
+                                    <segue destination="8FL-QG-ff3" kind="push" id="eQY-Qf-Z7e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Zr-8g-WUF">
                                 <rect key="frame" x="190" y="211" width="100" height="101"/>
@@ -138,6 +142,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" id="Pab-AP-iFG">
+                                <rect key="frame" x="179" y="75" width="121" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -145,11 +153,12 @@
                     <connections>
                         <outlet property="temperature" destination="XoR-1A-dta" id="qzs-Qi-qxl"/>
                         <outlet property="weatherButton" destination="AuM-P3-a3g" id="EaZ-sc-gLP"/>
+                        <outlet property="weatherView" destination="Pab-AP-iFG" id="ehp-TD-YBR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ekl-MR-TBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-48" y="-2392"/>
+            <point key="canvasLocation" x="-343" y="-2417"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="61f-oS-sU3">
@@ -164,7 +173,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zgx-cD-mu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-620" y="-2317"/>
+            <point key="canvasLocation" x="-782" y="-2417"/>
         </scene>
         <!--Table View Controller - Currency View-->
         <scene sceneID="fiU-wV-f7y">
@@ -297,7 +306,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gX8-tC-NHf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1517" y="-2541"/>
+            <point key="canvasLocation" x="1135" y="-2781"/>
         </scene>
         <!--View Controller - Map View-->
         <scene sceneID="3Em-nb-7gI">
@@ -331,7 +340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xql-yb-OgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-261" y="-1376"/>
+            <point key="canvasLocation" x="-177" y="-3178"/>
         </scene>
         <!--Table View Controller - Road Information-->
         <scene sceneID="l1z-dv-1wk">
@@ -444,7 +453,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7GQ-Uj-1H6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="-3358"/>
+            <point key="canvasLocation" x="179" y="-1542"/>
         </scene>
         <!--View Controller - Voltage Information View-->
         <scene sceneID="YWZ-uh-cAh">
@@ -470,7 +479,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhn-Sf-dUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="161" y="-3149"/>
+            <point key="canvasLocation" x="657" y="-1687"/>
         </scene>
         <!--Table View Controller - Taxis-->
         <scene sceneID="dtM-ZQ-2YL">
@@ -544,7 +553,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="37o-LC-IcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1294" y="-1706"/>
+            <point key="canvasLocation" x="1118" y="-2040"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9hc-AC-h0I">
+            <objects>
+                <viewController id="8FL-QG-ff3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wcr-aI-6QC">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yOP-sy-NrP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUL-uT-e7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="-3157"/>
         </scene>
         <!--Table View Controller - Friends View-->
         <scene sceneID="hhs-zp-Kmk">
@@ -803,7 +827,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXO-tq-Wu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="-1128"/>
+            <point key="canvasLocation" x="-282" y="-1542"/>
         </scene>
         <!--View Controller - Map Detail View-->
         <scene sceneID="RWo-wJ-R4l">
@@ -852,7 +876,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Wu-hR-YWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="311" y="-996"/>
+            <point key="canvasLocation" x="277" y="-3275"/>
         </scene>
     </scenes>
     <resources>
@@ -877,9 +901,11 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="viewTomorrow:"/>
                 <relationship kind="outlet" name="temperature" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="weatherButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="weatherIcon" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="weatherView" candidateClass="UIImageView"/>
             </relationships>
         </class>
     </classes>
