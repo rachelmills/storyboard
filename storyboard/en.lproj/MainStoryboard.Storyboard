@@ -112,7 +112,7 @@
                                     <segue destination="PQB-cs-kh3" kind="push" id="FOU-b1-cqv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Brisbane" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mdI-dh-jFf">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CurrentLocation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mdI-dh-jFf">
                                 <rect key="frame" x="30" y="12" width="260" height="30"/>
                                 <color key="backgroundColor" red="0.7882353663444519" green="0.82352948188781738" blue="0.9490196704864502" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -151,6 +151,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="iTravelTool" id="3yG-EN-moM"/>
                     <connections>
+                        <outlet property="currentCity" destination="mdI-dh-jFf" id="zOL-09-10L"/>
                         <outlet property="temperature" destination="XoR-1A-dta" id="qzs-Qi-qxl"/>
                         <outlet property="weatherButton" destination="AuM-P3-a3g" id="EaZ-sc-gLP"/>
                         <outlet property="weatherView" destination="Pab-AP-iFG" id="ehp-TD-YBR"/>
@@ -902,6 +903,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="viewTomorrow:"/>
+                <relationship kind="outlet" name="currentCity" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="temperature" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="weatherButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="weatherIcon" candidateClass="UIImageView"/>
