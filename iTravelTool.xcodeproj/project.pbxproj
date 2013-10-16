@@ -47,6 +47,8 @@
 		70FD2E3817D85403008B8D3B /* friend 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3717D85403008B8D3B /* friend 1.png */; };
 		70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3917D854C4008B8D3B /* friend 2.png */; };
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
+		AD127BCB180ECC8700762C67 /* Tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCA180ECC8700762C67 /* Tool57.png */; };
+		AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCC180ECC8E00762C67 /* Tool114.png */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
@@ -129,6 +131,8 @@
 		70FD2E3717D85403008B8D3B /* friend 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 1.png"; sourceTree = "<group>"; };
 		70FD2E3917D854C4008B8D3B /* friend 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 2.png"; sourceTree = "<group>"; };
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
+		AD127BCA180ECC8700762C67 /* Tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool57.png; sourceTree = "<group>"; };
+		AD127BCC180ECC8E00762C67 /* Tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool114.png; sourceTree = "<group>"; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -240,6 +244,8 @@
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD127BCA180ECC8700762C67 /* Tool57.png */,
+				AD127BCC180ECC8E00762C67 /* Tool114.png */,
 				AD86887B17FEB42600CF888A /* Weather */,
 				1FDFFE0317D75D580008925A /* fbicon-1.png */,
 				1FE529C717D4B0D600E081DA /* power plug.png */,
@@ -453,6 +459,8 @@
 				AD86888C17FEB45200CF888A /* Sun.png in Resources */,
 				AD86888D17FEB45200CF888A /* Cloud-Moon.png in Resources */,
 				AD8688B017FED03400CF888A /* Cloud.png in Resources */,
+				AD127BCB180ECC8700762C67 /* Tool57.png in Resources */,
+				AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
