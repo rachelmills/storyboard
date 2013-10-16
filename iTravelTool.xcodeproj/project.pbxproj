@@ -44,8 +44,6 @@
 		7073033017D865020043F04D /* airporticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073032F17D865020043F04D /* airporticon.png */; };
 		7073033217D865070043F04D /* brisbaneairporticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073033117D865070043F04D /* brisbaneairporticon.png */; };
 		7073033417D865170043F04D /* restauranticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073033317D865170043F04D /* restauranticon.png */; };
-		70EFDDB517D4598F00825299 /* tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EFDDB417D4598F00825299 /* tool57.png */; };
-		70EFDDB717D4599300825299 /* tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EFDDB617D4599300825299 /* tool114.png */; };
 		70FD2E3817D85403008B8D3B /* friend 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3717D85403008B8D3B /* friend 1.png */; };
 		70FD2E3A17D854C4008B8D3B /* friend 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3917D854C4008B8D3B /* friend 2.png */; };
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
@@ -128,8 +126,6 @@
 		7073032F17D865020043F04D /* airporticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airporticon.png; sourceTree = "<group>"; };
 		7073033117D865070043F04D /* brisbaneairporticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brisbaneairporticon.png; sourceTree = "<group>"; };
 		7073033317D865170043F04D /* restauranticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restauranticon.png; sourceTree = "<group>"; };
-		70EFDDB417D4598F00825299 /* tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool57.png; path = ../tool57.png; sourceTree = "<group>"; };
-		70EFDDB617D4599300825299 /* tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool114.png; path = ../tool114.png; sourceTree = "<group>"; };
 		70FD2E3717D85403008B8D3B /* friend 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 1.png"; sourceTree = "<group>"; };
 		70FD2E3917D854C4008B8D3B /* friend 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 2.png"; sourceTree = "<group>"; };
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
@@ -245,8 +241,6 @@
 			isa = PBXGroup;
 			children = (
 				AD86887B17FEB42600CF888A /* Weather */,
-				70EFDDB617D4599300825299 /* tool114.png */,
-				70EFDDB417D4598F00825299 /* tool57.png */,
 				1FDFFE0317D75D580008925A /* fbicon-1.png */,
 				1FE529C717D4B0D600E081DA /* power plug.png */,
 				1FDFFE0117D75CEA0008925A /* currencyicon.png */,
@@ -423,8 +417,6 @@
 				1F3AD42917D234B90090042F /* Default@2x.png in Resources */,
 				1F3AD42B17D234B90090042F /* Default-568h@2x.png in Resources */,
 				1F3AD42E17D234B90090042F /* MainStoryboard.Storyboard in Resources */,
-				70EFDDB517D4598F00825299 /* tool57.png in Resources */,
-				70EFDDB717D4599300825299 /* tool114.png in Resources */,
 				1FE529B817D49DAA00E081DA /* map.png in Resources */,
 				1FE529C617D4AFEA00E081DA /* friends.png in Resources */,
 				1FE529C817D4B0D600E081DA /* power plug.png in Resources */,
