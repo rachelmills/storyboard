@@ -49,6 +49,7 @@
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
 		AD127BCB180ECC8700762C67 /* Tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCA180ECC8700762C67 /* Tool57.png */; };
 		AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCC180ECC8E00762C67 /* Tool114.png */; };
+		AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
@@ -133,6 +134,8 @@
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
 		AD127BCA180ECC8700762C67 /* Tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool57.png; sourceTree = "<group>"; };
 		AD127BCC180ECC8E00762C67 /* Tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool114.png; sourceTree = "<group>"; };
+		AD127BCF180ECD9100762C67 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		AD127BD0180ECD9700762C67 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -230,6 +233,7 @@
 		1F3AD41A17D234B90090042F /* iTravelTool */ = {
 			isa = PBXGroup;
 			children = (
+				AD127BCE180ECD8700762C67 /* Model */,
 				1F3AD42317D234B90090042F /* AppDelegate.h */,
 				1F3AD42417D234B90090042F /* AppDelegate.m */,
 				1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */,
@@ -303,6 +307,15 @@
 			name = "Supporting Files";
 			path = storyboardTests;
 			sourceTree = SOURCE_ROOT;
+		};
+		AD127BCE180ECD8700762C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD127BCF180ECD9100762C67 /* WeatherData.h */,
+				AD127BD0180ECD9700762C67 /* WeatherData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
 		};
 		AD72F66E1803C27B0083845E /* AFNetworking */ = {
 			isa = PBXGroup;
@@ -515,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3AD44917D234BB0090042F /* storyboardTests.m in Sources */,
+				AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
