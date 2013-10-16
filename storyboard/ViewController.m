@@ -110,6 +110,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)stopUpdatingCurrentLocation
+{
+    [self.locationManager stopUpdatingLocation];
+}
+
 -(void)locateMe {
     if (!self.locationManager) {
         self.locationManager = [[CLLocationManager alloc] init];
@@ -132,7 +137,7 @@
     // Reverse Geocoding
     NSLog(@"Resolving the Address");
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
-
+    
     [geocoder reverseGeocodeLocation:location completionHandler:^(NSArray *placemarks, NSError *error) {
         NSLog(@"Found placemarks: %@, error: %@", placemarks, error);
         if (error == nil && [placemarks count] > 0) {
@@ -148,9 +153,11 @@
     AFJSONRequestOperation *operation;
     operation = [self getWeather:location];
     [operation start];
-   
+    
+    [self stopUpdatingCurrentLocation];
 }
 
+/*
 - (IBAction)viewTomorrow:(id)sender {
     if (_weatherButton.currentImage == _weatherCurrent) {
         [_weatherButton setImage:_weatherTomorrow forState:UIControlStateNormal];
@@ -162,4 +169,5 @@
 
     NSLog(@"Button has been tapped");
 }
+ */
 @end

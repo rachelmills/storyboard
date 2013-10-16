@@ -18,9 +18,10 @@
 @property (strong, nonatomic) CLLocation *location;
 @property (weak, nonatomic) IBOutlet UILabel *currentCity;
 
+/*
 - (IBAction)viewTomorrow:(id)sender;
-
-- (void)locateMe:(id)sender;
+*/
+- (void)locateMe;
 
 
 @end

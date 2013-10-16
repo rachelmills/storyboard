@@ -50,8 +50,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="viewTomorrow:" destination="nYP-kn-qHi" eventType="touchUpInside" id="NmP-dF-YbD"/>
-                                    <segue destination="8FL-QG-ff3" kind="push" id="eQY-Qf-Z7e"/>
+                                    <segue destination="oRE-WZ-dxH" kind="push" id="8rp-kg-7p3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Zr-8g-WUF">
@@ -556,21 +555,6 @@
             </objects>
             <point key="canvasLocation" x="1118" y="-2040"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="9hc-AC-h0I">
-            <objects>
-                <viewController id="8FL-QG-ff3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wcr-aI-6QC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="yOP-sy-NrP"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JUL-uT-e7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="713" y="-3157"/>
-        </scene>
         <!--Table View Controller - Friends View-->
         <scene sceneID="hhs-zp-Kmk">
             <objects>
@@ -879,6 +863,85 @@
             </objects>
             <point key="canvasLocation" x="277" y="-3275"/>
         </scene>
+        <!--Weather View Controller - Weather-->
+        <scene sceneID="eog-gj-UQa">
+            <objects>
+                <tableViewController storyboardIdentifier="weatherID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oRE-WZ-dxH" customClass="WeatherViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8yW-f2-rED">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="3IT-mX-cVe">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WeatherCell" textLabel="aS6-uQ-Fid" rowHeight="94" style="IBUITableViewCellStyleDefault" id="dDV-Gv-c8w">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aS6-uQ-Fid">
+                                                    <rect key="frame" x="10" y="0.0" width="300" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WeatherCell" textLabel="vbx-Hg-R2D" rowHeight="94" style="IBUITableViewCellStyleDefault" id="95t-yb-xvu">
+                                        <rect key="frame" x="0.0" y="94" width="320" height="94"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vbx-Hg-R2D">
+                                                    <rect key="frame" x="10" y="0.0" width="300" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WeatherCell" textLabel="iXg-jQ-kjy" rowHeight="94" style="IBUITableViewCellStyleDefault" id="AfK-2F-XLg">
+                                        <rect key="frame" x="0.0" y="188" width="320" height="94"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iXg-jQ-kjy">
+                                                    <rect key="frame" x="10" y="0.0" width="300" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="oRE-WZ-dxH" id="oW6-B8-TGJ"/>
+                            <outlet property="delegate" destination="oRE-WZ-dxH" id="2n2-0l-htN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Weather" id="Jfh-lM-KyU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tEk-Pb-pAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="-3377"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Contact-Methods-Phone-icon.png" width="512" height="512"/>
@@ -909,6 +972,9 @@
                 <relationship kind="outlet" name="weatherIcon" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="weatherView" candidateClass="UIImageView"/>
             </relationships>
+        </class>
+        <class className="WeatherViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeatherViewController.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

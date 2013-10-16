@@ -50,6 +50,10 @@
 		AD127BCB180ECC8700762C67 /* Tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCA180ECC8700762C67 /* Tool57.png */; };
 		AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCC180ECC8E00762C67 /* Tool114.png */; };
 		AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
+		AD127BD4180ECE5000762C67 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD3180ECE5000762C67 /* WeatherViewController.m */; };
+		AD127BD7180ED1BC00762C67 /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD6180ED1BC00762C67 /* WeatherCell.m */; };
+		AD127BD8180ED31900762C67 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD3180ECE5000762C67 /* WeatherViewController.m */; };
+		AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
@@ -136,6 +140,10 @@
 		AD127BCC180ECC8E00762C67 /* Tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool114.png; sourceTree = "<group>"; };
 		AD127BCF180ECD9100762C67 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
 		AD127BD0180ECD9700762C67 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		AD127BD2180ECE4100762C67 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		AD127BD3180ECE5000762C67 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		AD127BD5180ED1B300762C67 /* WeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCell.h; sourceTree = "<group>"; };
+		AD127BD6180ED1BC00762C67 /* WeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCell.m; sourceTree = "<group>"; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -239,6 +247,10 @@
 				1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */,
 				1F3AD43217D234B90090042F /* ViewController.h */,
 				1F3AD43317D234B90090042F /* ViewController.m */,
+				AD127BD5180ED1B300762C67 /* WeatherCell.h */,
+				AD127BD6180ED1BC00762C67 /* WeatherCell.m */,
+				AD127BD2180ECE4100762C67 /* WeatherViewController.h */,
+				AD127BD3180ECE5000762C67 /* WeatherViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
 			);
 			name = iTravelTool;
@@ -508,6 +520,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */,
+				AD127BD8180ED31900762C67 /* WeatherViewController.m in Sources */,
 				1F3AD42117D234B90090042F /* main.m in Sources */,
 				1F3AD42517D234B90090042F /* AppDelegate.m in Sources */,
 				1F3AD43417D234B90090042F /* ViewController.m in Sources */,
@@ -529,6 +543,8 @@
 			files = (
 				1F3AD44917D234BB0090042F /* storyboardTests.m in Sources */,
 				AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */,
+				AD127BD4180ECE5000762C67 /* WeatherViewController.m in Sources */,
+				AD127BD7180ED1BC00762C67 /* WeatherCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
