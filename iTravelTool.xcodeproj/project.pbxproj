@@ -55,6 +55,7 @@
 		AD127BD8180ED31900762C67 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD3180ECE5000762C67 /* WeatherViewController.m */; };
 		AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
+		AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA7E181544BB001E364C /* CurrencyViewController.m */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
 		AD72F6841803C27B0083845E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6741803C27B0083845E /* AFImageRequestOperation.m */; };
@@ -145,6 +146,8 @@
 		AD127BD5180ED1B300762C67 /* WeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCell.h; sourceTree = "<group>"; };
 		AD127BD6180ED1BC00762C67 /* WeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCell.m; sourceTree = "<group>"; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AD66CA7D181544BA001E364C /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
+		AD66CA7E181544BB001E364C /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		AD72F6711803C27B0083845E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				AD127BD6180ED1BC00762C67 /* WeatherCell.m */,
 				AD127BD2180ECE4100762C67 /* WeatherViewController.h */,
 				AD127BD3180ECE5000762C67 /* WeatherViewController.m */,
+				AD66CA7D181544BA001E364C /* CurrencyViewController.h */,
+				AD66CA7E181544BB001E364C /* CurrencyViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
 			);
 			name = iTravelTool;
@@ -534,6 +539,7 @@
 				AD72F6881803C27B0083845E /* AFURLConnectionOperation.m in Sources */,
 				AD72F6891803C27B0083845E /* AFXMLRequestOperation.m in Sources */,
 				AD72F68A1803C27B0083845E /* UIImageView+AFNetworking.m in Sources */,
+				AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

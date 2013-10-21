@@ -21,8 +21,6 @@
     WeatherData *weatherData2 = [[WeatherData alloc] initWithImage:[UIImage imageNamed:@"Snowflake.png" ]];
     WeatherData *weatherData3 = [[WeatherData alloc] initWithImage:[UIImage imageNamed:@"Moon.png"]];
     
-    
-    
     WeatherViewController *weatherViewController = [[WeatherViewController alloc] init];
     self.weatherArray = [NSMutableArray arrayWithObjects:weatherData1, weatherData2, weatherData3, nil];
     NSLog(@"weather array contains %@", self.weatherArray);
