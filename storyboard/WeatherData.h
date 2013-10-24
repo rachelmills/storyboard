@@ -11,7 +11,11 @@
 @interface WeatherData : NSObject
 
 @property (strong) UIImage *weatherImage;
+@property (strong) NSString *weatherSummary;
+@property (strong) NSString *weatherTitle;
+@property (strong) NSString *weatherTemp;
+@property (strong) NSString *weatherPercentRain;
 
-- (id)initWithImage:(UIImage *)weatherImage;
+- (id)initWithImage:(UIImage *)weatherImage andTitle:(NSString *)weatherTitle andSummary:(NSString *) weatherSummary andTemp:(NSString *)weatherTemp andPercentRain:(NSString *)weatherPercentRain;
 
 @end

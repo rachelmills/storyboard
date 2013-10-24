@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomTableViewCell.h"
 
 @interface WeatherViewController : UITableViewController
 
 @property (strong) NSMutableArray *weatherArray1;
+
 
 @end

@@ -9,27 +9,15 @@
 #import "AppDelegate.h"
 #import "WeatherData.h"
 #import "WeatherViewController.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.weatherArray = [[NSMutableArray alloc] init];
-    
-    WeatherData *weatherData1 = [[WeatherData alloc] initWithImage:[UIImage imageNamed:@"Cloud.png"]];
-    WeatherData *weatherData2 = [[WeatherData alloc] initWithImage:[UIImage imageNamed:@"Snowflake.png" ]];
-    WeatherData *weatherData3 = [[WeatherData alloc] initWithImage:[UIImage imageNamed:@"Moon.png"]];
-    
-    WeatherViewController *weatherViewController = [[WeatherViewController alloc] init];
-    self.weatherArray = [NSMutableArray arrayWithObjects:weatherData1, weatherData2, weatherData3, nil];
-    NSLog(@"weather array contains %@", self.weatherArray);
-    NSLog(@"first image is %@", [self.weatherArray objectAtIndex:0]);
-    NSLog(@"In view did load method");
-    NSLog(@"Number of rows is %lu", (unsigned long)[self.weatherArray count]);
-    weatherViewController.weatherArray1 = self.weatherArray;
-    NSLog(@"Number of rows is %lu", (unsigned long)[weatherViewController.weatherArray1 count]);
-    return YES;}
+    return YES;
+}
 
 
 -(NSArray *) getWeatherArray {

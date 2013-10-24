@@ -8,7 +8,6 @@
 
 #import "WeatherViewController.h"
 #import "WeatherData.h"
-#import "AppDelegate.h"
 
 @interface WeatherViewController ()
 
@@ -39,10 +38,7 @@
 
 
 - (void)viewWillAppear:(BOOL)animated {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-   // self.weatherArray1 = [[NSMutableArray alloc] initWithArray:[appDelegate.weatherArray]];
-    self.weatherArray1 = [[NSMutableArray alloc] initWithArray:[appDelegate getWeatherArray]];
-     NSLog(@"Array count:%d", [self.weatherArray1 count]);
+    NSLog(@"Array count:%d", [self.weatherArray1 count]);
     [self.tableView reloadData];
     [super viewWillAppear:animated];
 }
@@ -67,16 +63,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"WeatherCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-    }
+    static NSString *CellIdentifier = @"Cell";
     
+    CustomTableViewCell *cell = (CustomTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     WeatherData *weatherData = [self.weatherArray1 objectAtIndex:indexPath.row];
-    
-    cell.textLabel.text = @"Rachel test";
-    cell.imageView.image = weatherData.weatherImage;
+ 
+    cell.weatherDescription.text = weatherData.weatherSummary;
+    cell.weatherImageLabel.image = weatherData.weatherImage;
+    cell.weatherText.text = weatherData.weatherTitle;
+    cell.weatherTemp.text = weatherData.weatherTemp;
+    cell.weatherPercentRain.text = weatherData.weatherPercentRain;
     
     return cell;
 }

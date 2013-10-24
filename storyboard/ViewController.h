@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "WeatherViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
 
@@ -18,9 +20,10 @@
 @property (strong, nonatomic) CLLocation *location;
 @property (weak, nonatomic) IBOutlet UILabel *currentCity;
 
-/*
-- (IBAction)viewTomorrow:(id)sender;
-*/
+- (CLLocation *) getLocation;
+
+//- (IBAction)viewTomorrow:(id)sender;
+
 - (void)locateMe;
 
 

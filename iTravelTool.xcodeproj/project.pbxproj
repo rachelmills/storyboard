@@ -56,6 +56,9 @@
 		AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA7E181544BB001E364C /* CurrencyViewController.m */; };
+		AD66CA8B18167B76001E364C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA8A18167B76001E364C /* CustomTableViewCell.m */; };
+		AD66CA8D1818F587001E364C /* Thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66CA8C1818F587001E364C /* Thermometer.png */; };
+		AD66CA8F1818F8C5001E364C /* icon_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66CA8E1818F8C5001E364C /* icon_loading.png */; };
 		AD72F6821803C27B0083845E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6701803C27B0083845E /* AFHTTPClient.m */; };
 		AD72F6831803C27B0083845E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6721803C27B0083845E /* AFHTTPRequestOperation.m */; };
 		AD72F6841803C27B0083845E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6741803C27B0083845E /* AFImageRequestOperation.m */; };
@@ -148,6 +151,10 @@
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD66CA7D181544BA001E364C /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		AD66CA7E181544BB001E364C /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
+		AD66CA8918167B76001E364C /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		AD66CA8A18167B76001E364C /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		AD66CA8C1818F587001E364C /* Thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thermometer.png; sourceTree = "<group>"; };
+		AD66CA8E1818F8C5001E364C /* icon_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_loading.png; sourceTree = "<group>"; };
 		AD72F66F1803C27B0083845E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AD72F6701803C27B0083845E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		AD72F6711803C27B0083845E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -244,6 +251,8 @@
 		1F3AD41A17D234B90090042F /* iTravelTool */ = {
 			isa = PBXGroup;
 			children = (
+				AD66CA8918167B76001E364C /* CustomTableViewCell.h */,
+				AD66CA8A18167B76001E364C /* CustomTableViewCell.m */,
 				AD127BCE180ECD8700762C67 /* Model */,
 				1F3AD42317D234B90090042F /* AppDelegate.h */,
 				1F3AD42417D234B90090042F /* AppDelegate.m */,
@@ -363,6 +372,8 @@
 		AD86887B17FEB42600CF888A /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				AD66CA8E1818F8C5001E364C /* icon_loading.png */,
+				AD66CA8C1818F587001E364C /* Thermometer.png */,
 				AD86887C17FEB45200CF888A /* Cloud-Hail.png */,
 				AD8688AF17FED03400CF888A /* Cloud.png */,
 				AD86887D17FEB45200CF888A /* Cloud-Fog.png */,
@@ -491,6 +502,8 @@
 				AD8688B017FED03400CF888A /* Cloud.png in Resources */,
 				AD127BCB180ECC8700762C67 /* Tool57.png in Resources */,
 				AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */,
+				AD66CA8D1818F587001E364C /* Thermometer.png in Resources */,
+				AD66CA8F1818F8C5001E364C /* icon_loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +553,7 @@
 				AD72F6891803C27B0083845E /* AFXMLRequestOperation.m in Sources */,
 				AD72F68A1803C27B0083845E /* UIImageView+AFNetworking.m in Sources */,
 				AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */,
+				AD66CA8B18167B76001E364C /* CustomTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
