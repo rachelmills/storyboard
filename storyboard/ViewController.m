@@ -218,10 +218,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    WeatherViewController *weatherViewController = (WeatherViewController *)segue.destinationViewController;
-
-    weatherViewController.weatherArray1 = [[NSMutableArray alloc] initWithArray:_weatherArray];
-        NSLog(@"rachel weather %d", weatherViewController.weatherArray1.count);
+    if ([segue.identifier isEqualToString:@"WeatherSegue"]) {
+        WeatherViewController *weatherViewController = (WeatherViewController *)segue.destinationViewController;
+        
+        weatherViewController.weatherArray1 = [[NSMutableArray alloc] initWithArray:_weatherArray];
+    }
+    
 }
     
 

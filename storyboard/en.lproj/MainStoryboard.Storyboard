@@ -23,7 +23,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uyl-5g-eM9" kind="push" id="gtg-FS-fkY"/>
+                                    <segue destination="uyl-5g-eM9" kind="push" identifier="MapSegue" id="gtg-FS-fkY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i2O-5n-77o">
@@ -37,7 +37,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="41P-fi-Vgd" kind="push" id="q3C-Gz-nej"/>
+                                    <segue destination="41P-fi-Vgd" kind="push" identifier="FriendsSegue" id="q3C-Gz-nej"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AuM-P3-a3g">
@@ -50,7 +50,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oRE-WZ-dxH" kind="push" id="8rp-kg-7p3"/>
+                                    <segue destination="oRE-WZ-dxH" kind="push" identifier="WeatherSegue" id="8rp-kg-7p3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Zr-8g-WUF">
@@ -64,7 +64,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JYa-M0-Qvw" kind="push" id="b7g-rn-pTa"/>
+                                    <segue destination="JYa-M0-Qvw" kind="push" identifier="CurrencySegue" id="b7g-rn-pTa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dlc-DO-8bQ">
@@ -80,7 +80,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GMZ-Jt-pcP" kind="push" id="Qjx-qq-eok"/>
+                                    <segue destination="GMZ-Jt-pcP" kind="push" identifier="TaxiSegue" id="Qjx-qq-eok"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FtC-Zd-exW">
@@ -94,7 +94,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PAu-jN-dmR" kind="push" id="QBB-db-DIv"/>
+                                    <segue destination="PAu-jN-dmR" kind="push" identifier="PlugSegue" id="QBB-db-DIv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wlz-uk-qNG">
@@ -108,7 +108,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PQB-cs-kh3" kind="push" id="FOU-b1-cqv"/>
+                                    <segue destination="PQB-cs-kh3" kind="push" identifier="RoadInfoSegue" id="FOU-b1-cqv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CurrentLocation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mdI-dh-jFf">
@@ -916,40 +916,6 @@
         <image name="taxi.png" width="128" height="128"/>
         <image name="voltageicon.png" width="120" height="120"/>
     </resources>
-    <classes>
-        <class className="CurrencyViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CurrencyViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="convert:"/>
-                <relationship kind="outlet" name="AUD" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="EUR" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="amount" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="CustomTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="weatherDescription" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherImageLabel" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="weatherPercentRain" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherTemp" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherText" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="currentCity" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="temperature" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="weatherIcon" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="weatherView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="WeatherViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeatherViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
