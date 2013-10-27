@@ -70,7 +70,7 @@
 		AD72F68A1803C27B0083845E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AD72F6811803C27B0083845E /* UIImageView+AFNetworking.m */; };
 		AD86888517FEB45200CF888A /* Cloud-Hail.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887C17FEB45200CF888A /* Cloud-Hail.png */; };
 		AD86888617FEB45200CF888A /* Cloud-Fog.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887D17FEB45200CF888A /* Cloud-Fog.png */; };
-		AD86888717FEB45200CF888A /* Wind-svg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887E17FEB45200CF888A /* Wind-svg.png */; };
+		AD86888717FEB45200CF888A /* Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887E17FEB45200CF888A /* Wind.png */; };
 		AD86888817FEB45200CF888A /* Snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86887F17FEB45200CF888A /* Snowflake.png */; };
 		AD86888917FEB45200CF888A /* Umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888017FEB45200CF888A /* Umbrella.png */; };
 		AD86888A17FEB45200CF888A /* Cloud-Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888117FEB45200CF888A /* Cloud-Sun.png */; };
@@ -176,7 +176,7 @@
 		AD72F6811803C27B0083845E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		AD86887C17FEB45200CF888A /* Cloud-Hail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Hail.png"; sourceTree = "<group>"; };
 		AD86887D17FEB45200CF888A /* Cloud-Fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Fog.png"; sourceTree = "<group>"; };
-		AD86887E17FEB45200CF888A /* Wind-svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wind-svg.png"; sourceTree = "<group>"; };
+		AD86887E17FEB45200CF888A /* Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wind.png; sourceTree = "<group>"; };
 		AD86887F17FEB45200CF888A /* Snowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snowflake.png; sourceTree = "<group>"; };
 		AD86888017FEB45200CF888A /* Umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umbrella.png; sourceTree = "<group>"; };
 		AD86888117FEB45200CF888A /* Cloud-Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Sun.png"; sourceTree = "<group>"; };
@@ -377,7 +377,7 @@
 				AD86887C17FEB45200CF888A /* Cloud-Hail.png */,
 				AD8688AF17FED03400CF888A /* Cloud.png */,
 				AD86887D17FEB45200CF888A /* Cloud-Fog.png */,
-				AD86887E17FEB45200CF888A /* Wind-svg.png */,
+				AD86887E17FEB45200CF888A /* Wind.png */,
 				AD86887F17FEB45200CF888A /* Snowflake.png */,
 				AD86888017FEB45200CF888A /* Umbrella.png */,
 				AD86888117FEB45200CF888A /* Cloud-Sun.png */,
@@ -492,7 +492,7 @@
 				ADE23F5C17D9BC110088533C /* currency.png in Resources */,
 				AD86888517FEB45200CF888A /* Cloud-Hail.png in Resources */,
 				AD86888617FEB45200CF888A /* Cloud-Fog.png in Resources */,
-				AD86888717FEB45200CF888A /* Wind-svg.png in Resources */,
+				AD86888717FEB45200CF888A /* Wind.png in Resources */,
 				AD86888817FEB45200CF888A /* Snowflake.png in Resources */,
 				AD86888917FEB45200CF888A /* Umbrella.png in Resources */,
 				AD86888A17FEB45200CF888A /* Cloud-Sun.png in Resources */,
