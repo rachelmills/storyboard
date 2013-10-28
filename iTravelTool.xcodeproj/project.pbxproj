@@ -49,7 +49,6 @@
 		70FD2E3C17D8550B008B8D3B /* friend 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD2E3B17D8550B008B8D3B /* friend 3.png */; };
 		AD05B367181DEED1001F4130 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05B366181DEED1001F4130 /* SystemConfiguration.framework */; };
 		AD05B369181DEF2C001F4130 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */; };
-		AD05B36C181DEF72001F4130 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B36B181DEF72001F4130 /* TestViewController.m */; };
 		AD05B36F181DEFE3001F4130 /* TaxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B36E181DEFE3001F4130 /* TaxiViewController.m */; };
 		AD05B3AC181DF368001F4130 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B374181DF368001F4130 /* MagicalImportFunctions.m */; };
 		AD05B3AD181DF368001F4130 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B376181DF368001F4130 /* NSAttributeDescription+MagicalDataImport.m */; };
@@ -175,8 +174,6 @@
 		70FD2E3B17D8550B008B8D3B /* friend 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend 3.png"; sourceTree = "<group>"; };
 		AD05B366181DEED1001F4130 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		AD05B36A181DEF72001F4130 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		AD05B36B181DEF72001F4130 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		AD05B36D181DEFE3001F4130 /* TaxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiViewController.h; sourceTree = "<group>"; };
 		AD05B36E181DEFE3001F4130 /* TaxiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiViewController.m; sourceTree = "<group>"; };
 		AD05B373181DF368001F4130 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
@@ -374,8 +371,6 @@
 				AD66CA7D181544BA001E364C /* CurrencyViewController.h */,
 				AD66CA7E181544BB001E364C /* CurrencyViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
-				AD05B36A181DEF72001F4130 /* TestViewController.h */,
-				AD05B36B181DEF72001F4130 /* TestViewController.m */,
 				AD05B36D181DEFE3001F4130 /* TaxiViewController.h */,
 				AD05B36E181DEFE3001F4130 /* TaxiViewController.m */,
 			);
@@ -770,7 +765,6 @@
 				AD72F68A1803C27B0083845E /* UIImageView+AFNetworking.m in Sources */,
 				AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */,
 				AD66CA8B18167B76001E364C /* CustomTableViewCell.m in Sources */,
-				AD05B36C181DEF72001F4130 /* TestViewController.m in Sources */,
 				AD05B36F181DEFE3001F4130 /* TaxiViewController.m in Sources */,
 				AD05B3AC181DF368001F4130 /* MagicalImportFunctions.m in Sources */,
 				AD05B3AD181DF368001F4130 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
