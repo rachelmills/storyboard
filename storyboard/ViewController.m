@@ -33,6 +33,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [self locateMe];
+    
+    // load taxi information from plist
+    NSString *myListPath = [[NSBundle mainBundle] pathForResource:@"DataPropertyList" ofType:@"plist"];
+    _taxiArray = [[NSMutableArray alloc]initWithContentsOfFile:myListPath];
+    NSLog(@"Taxi array is %@",_taxiArray);
 }
 
 - (UIImage *)createWeatherIcon:(NSString *)icon
@@ -222,7 +227,11 @@
         WeatherViewController *weatherViewController = (WeatherViewController *)segue.destinationViewController;
         
         weatherViewController.weatherArray1 = [[NSMutableArray alloc] initWithArray:_weatherArray];
+    } else if ([segue.identifier isEqualToString:@"TaxiSegue"]) {
+        TaxiViewController *taxiViewController = (TaxiViewController *)segue.destinationViewController;
+        taxiViewController.taxiArray = [[NSMutableArray alloc] initWithArray:_taxiArray];
     }
+
     
 }
     

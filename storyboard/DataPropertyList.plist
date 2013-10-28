@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>taxiCity</key>
+		<string>Brisbane</string>
+		<key>taxiName</key>
+		<string>Black &amp; White Cabs</string>
+		<key>taxiNumber</key>
+		<string>133222</string>
+	</dict>
+	<dict>
+		<key>taxiCity</key>
+		<string>Brisbane</string>
+		<key>taxiName</key>
+		<string>Yellow Cab Co</string>
+		<key>taxiNumber</key>
+		<string>131924</string>
+	</dict>
+</array>
+</plist>

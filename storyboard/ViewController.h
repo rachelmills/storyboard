@@ -10,6 +10,8 @@
 #import <CoreLocation/CoreLocation.h>
 #import "WeatherViewController.h"
 #import "AppDelegate.h"
+#import "TaxiInfo.h"
+#import "TaxiViewController.h"
 
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
 
@@ -19,6 +21,7 @@
 
 @property (strong, nonatomic) CLLocation *location;
 @property (weak, nonatomic) IBOutlet UILabel *currentCity;
+@property (strong, nonatomic) NSMutableArray *taxiArray;
 
 - (CLLocation *) getLocation;
 

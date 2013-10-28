@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Z4k-9u-ziX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Z4k-9u-ziX">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -348,79 +348,51 @@
             </objects>
             <point key="canvasLocation" x="657" y="-1687"/>
         </scene>
-        <!--Table View Controller - Taxis-->
+        <!--Taxi View Controller - Taxis-->
         <scene sceneID="dtM-ZQ-2YL">
             <objects>
-                <tableViewController id="GMZ-Jt-pcP" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="LZa-uJ-ewG">
+                <tableViewController id="GMZ-Jt-pcP" customClass="TaxiViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="v2U-kA-8df">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.67454570800000002" green="0.76150452710000005" blue="0.93556565049999996" alpha="1" colorSpace="calibratedRGB"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" id="guq-CE-qpW">
-                            <rect key="frame" x="0.0" y="110" width="320" height="394"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.67454570800000002" green="0.76150452710000005" blue="0.93556565049999996" alpha="1" colorSpace="calibratedRGB"/>
-                        </view>
-                        <sections>
-                            <tableViewSection id="62C-I0-ptx">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="iOa-gb-OGS" imageView="xbg-TO-EZ8" style="IBUITableViewCellStyleDefault" id="Zyy-nS-wUN">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" textLabel="59d-FI-Urn" detailTextLabel="5Bl-Zd-O4B" style="IBUITableViewCellStyleValue1" id="PdH-Bu-KKt">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="59d-FI-Urn">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Yellow Cabs - 131924" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iOa-gb-OGS">
-                                                    <rect key="frame" x="53" y="0.0" width="237" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                    <color key="textColor" red="0.086274512110000007" green="0.15686275059999999" blue="0.37647062539999998" alpha="1" colorSpace="deviceRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Contact-Methods-Phone-icon.png" id="xbg-TO-EZ8">
-                                                    <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Iip-J2-DZc" imageView="nf3-Kl-i45" style="IBUITableViewCellStyleDefault" id="INw-UT-6rY">
-                                        <rect key="frame" x="0.0" y="55" width="320" height="45"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Bl-Zd-O4B">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Black &amp; White Cabs - 133222" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Iip-J2-DZc">
-                                                    <rect key="frame" x="53" y="0.0" width="237" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <color key="textColor" red="0.0" green="2.4792048679999999e-05" blue="0.30228855300000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Contact-Methods-Phone-icon.png" id="nf3-Kl-i45">
-                                                    <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="GMZ-Jt-pcP" id="ZOX-15-F3Q"/>
-                            <outlet property="delegate" destination="GMZ-Jt-pcP" id="qmQ-fv-5eM"/>
+                            <outlet property="dataSource" destination="GMZ-Jt-pcP" id="3Io-80-agT"/>
+                            <outlet property="delegate" destination="GMZ-Jt-pcP" id="9Ig-ll-LB1"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Taxis" id="LkT-Kr-NHQ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="37o-LC-IcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1118" y="-2040"/>
+            <point key="canvasLocation" x="1101" y="-2098"/>
         </scene>
         <!--Table View Controller - Friends View-->
         <scene sceneID="hhs-zp-Kmk">
@@ -897,7 +869,6 @@
     </scenes>
     <resources>
         <image name="Cloud-Fog.png" width="100" height="100"/>
-        <image name="Contact-Methods-Phone-icon.png" width="512" height="512"/>
         <image name="Drive Background.png" width="260" height="30"/>
         <image name="Plug Background.png" width="260" height="30"/>
         <image name="Taxi Background.png" width="260" height="30"/>
@@ -917,40 +888,6 @@
         <image name="taxi.png" width="128" height="128"/>
         <image name="voltageicon.png" width="120" height="120"/>
     </resources>
-    <classes>
-        <class className="CurrencyViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CurrencyViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="convert:"/>
-                <relationship kind="outlet" name="AUD" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="EUR" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="amount" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="CustomTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="weatherDescription" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherImageLabel" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="weatherPercentRain" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherTemp" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherText" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="currentCity" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="temperature" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="weatherIcon" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="weatherView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="WeatherViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeatherViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
