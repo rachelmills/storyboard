@@ -15,14 +15,16 @@
 @synthesize weatherSummary = _weatherSummary;
 @synthesize weatherPercentRain = _weatherPercentRain;
 @synthesize weatherTemp = _weatherTemp;
+@synthesize weatherBGColour = _weatherBGColour;
 
-- (id)initWithImage:(UIImage *)weatherImage andTitle:(NSString *)weatherTitle andSummary:(NSString *)weatherSummary andTemp:(NSString *)weatherTemp andPercentRain:(NSString *)weatherPercentRain;{
+- (id)initWithImage:(UIImage *)weatherImage andTitle:(NSString *)weatherTitle andSummary:(NSString *)weatherSummary andTemp:(NSString *)weatherTemp andPercentRain:(NSString *)weatherPercentRain andBGColour:(UIColor *)weatherBGColour {
     if ((self = [super init])) {
         self.weatherImage = weatherImage;
         self.weatherSummary = weatherSummary;
         self.weatherTitle = weatherTitle;
         self.weatherTemp = weatherTemp;
         self.weatherPercentRain = weatherPercentRain;
+        self.weatherBGColour = weatherBGColour;
     }
     
     return self;

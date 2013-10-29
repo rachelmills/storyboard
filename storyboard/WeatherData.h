@@ -15,7 +15,8 @@
 @property (strong) NSString *weatherTitle;
 @property (strong) NSString *weatherTemp;
 @property (strong) NSString *weatherPercentRain;
+@property (strong) UIColor *weatherBGColour;
 
-- (id)initWithImage:(UIImage *)weatherImage andTitle:(NSString *)weatherTitle andSummary:(NSString *) weatherSummary andTemp:(NSString *)weatherTemp andPercentRain:(NSString *)weatherPercentRain;
+- (id)initWithImage:(UIImage *)weatherImage andTitle:(NSString *)weatherTitle andSummary:(NSString *) weatherSummary andTemp:(NSString *)weatherTemp andPercentRain:(NSString *)weatherPercentRain andBGColour:(UIColor *)weatherBGColour;
 
 @end
