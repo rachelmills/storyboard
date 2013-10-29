@@ -120,6 +120,23 @@
 		ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B17181F4E8300257821 /* PlugInfoTest.m */; };
 		ADA41B1A181F54B800257821 /* AustralianPlug.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B19181F54B800257821 /* AustralianPlug.png */; };
 		ADA41B1D181F557900257821 /* PlugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B1C181F557800257821 /* PlugViewController.m */; };
+		ADA41B23181F6C9D00257821 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B22181F6C9C00257821 /* MapPoint.m */; };
+		ADA41B2A181F6D2E00257821 /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B24181F6D2D00257821 /* airport.png */; };
+		ADA41B2B181F6D2E00257821 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B25181F6D2D00257821 /* bus.png */; };
+		ADA41B2C181F6D2E00257821 /* lodging.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B26181F6D2D00257821 /* lodging.png */; };
+		ADA41B2D181F6D2E00257821 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B27181F6D2D00257821 /* star.png */; };
+		ADA41B2E181F6D2E00257821 /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B28181F6D2E00257821 /* museum.png */; };
+		ADA41B2F181F6D2E00257821 /* train.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B29181F6D2E00257821 /* train.png */; };
+		ADA41B31181F6FA000257821 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA41B30181F6FA000257821 /* MapKit.framework */; };
+		ADA41B34181F719200257821 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B33181F719200257821 /* MapViewController.m */; };
+		ADA41B35181F74C200257821 /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B24181F6D2D00257821 /* airport.png */; };
+		ADA41B36181F74C200257821 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B25181F6D2D00257821 /* bus.png */; };
+		ADA41B37181F74C200257821 /* lodging.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B26181F6D2D00257821 /* lodging.png */; };
+		ADA41B38181F74C200257821 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B27181F6D2D00257821 /* star.png */; };
+		ADA41B39181F74C200257821 /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B28181F6D2E00257821 /* museum.png */; };
+		ADA41B3A181F74C200257821 /* train.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B29181F6D2E00257821 /* train.png */; };
+		ADA41B3B181F754C00257821 /* MapPoint.h in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B21181F6C9C00257821 /* MapPoint.h */; };
+		ADA41B3C181F754C00257821 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B22181F6C9C00257821 /* MapPoint.m */; };
 		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
 		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
@@ -303,6 +320,17 @@
 		ADA41B19181F54B800257821 /* AustralianPlug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AustralianPlug.png; sourceTree = "<group>"; };
 		ADA41B1B181F557800257821 /* PlugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugViewController.h; sourceTree = "<group>"; };
 		ADA41B1C181F557800257821 /* PlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugViewController.m; sourceTree = "<group>"; };
+		ADA41B21181F6C9C00257821 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		ADA41B22181F6C9C00257821 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		ADA41B24181F6D2D00257821 /* airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport.png; sourceTree = "<group>"; };
+		ADA41B25181F6D2D00257821 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		ADA41B26181F6D2D00257821 /* lodging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lodging.png; sourceTree = "<group>"; };
+		ADA41B27181F6D2D00257821 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		ADA41B28181F6D2E00257821 /* museum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = museum.png; sourceTree = "<group>"; };
+		ADA41B29181F6D2E00257821 /* train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train.png; sourceTree = "<group>"; };
+		ADA41B30181F6FA000257821 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ADA41B32181F719200257821 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		ADA41B33181F719200257821 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -312,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA41B31181F6FA000257821 /* MapKit.framework in Frameworks */,
 				AD05B369181DEF2C001F4130 /* MobileCoreServices.framework in Frameworks */,
 				AD05B367181DEED1001F4130 /* SystemConfiguration.framework in Frameworks */,
 				AD3850CE181DE85C00F28647 /* CoreData.framework in Frameworks */,
@@ -360,6 +389,7 @@
 		1F3AD41317D234B80090042F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADA41B30181F6FA000257821 /* MapKit.framework */,
 				AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */,
 				AD05B366181DEED1001F4130 /* SystemConfiguration.framework */,
 				AD3850CD181DE85C00F28647 /* CoreData.framework */,
@@ -387,6 +417,10 @@
 				1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */,
 				1F3AD43217D234B90090042F /* ViewController.h */,
 				1F3AD43317D234B90090042F /* ViewController.m */,
+				ADA41B21181F6C9C00257821 /* MapPoint.h */,
+				ADA41B22181F6C9C00257821 /* MapPoint.m */,
+				ADA41B32181F719200257821 /* MapViewController.h */,
+				ADA41B33181F719200257821 /* MapViewController.m */,
 				AD127BD5180ED1B300762C67 /* WeatherCell.h */,
 				AD127BD6180ED1BC00762C67 /* WeatherCell.m */,
 				AD127BD2180ECE4100762C67 /* WeatherViewController.h */,
@@ -411,6 +445,12 @@
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADA41B24181F6D2D00257821 /* airport.png */,
+				ADA41B25181F6D2D00257821 /* bus.png */,
+				ADA41B26181F6D2D00257821 /* lodging.png */,
+				ADA41B27181F6D2D00257821 /* star.png */,
+				ADA41B28181F6D2E00257821 /* museum.png */,
+				ADA41B29181F6D2E00257821 /* train.png */,
 				ADA41B19181F54B800257821 /* AustralianPlug.png */,
 				ADA41B0C181F4BA200257821 /* plug-socket.png */,
 				AD05B3CC181DF568001F4130 /* TaxiList.plist */,
@@ -706,6 +746,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA41B35181F74C200257821 /* airport.png in Resources */,
+				ADA41B36181F74C200257821 /* bus.png in Resources */,
+				ADA41B37181F74C200257821 /* lodging.png in Resources */,
+				ADA41B38181F74C200257821 /* star.png in Resources */,
+				ADA41B39181F74C200257821 /* museum.png in Resources */,
+				ADA41B3A181F74C200257821 /* train.png in Resources */,
 				1F3AD41F17D234B90090042F /* InfoPlist.strings in Resources */,
 				1F3AD42717D234B90090042F /* Default.png in Resources */,
 				1F3AD42917D234B90090042F /* Default@2x.png in Resources */,
@@ -763,6 +809,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3AD44617D234BB0090042F /* InfoPlist.strings in Resources */,
+				ADA41B2A181F6D2E00257821 /* airport.png in Resources */,
+				ADA41B2B181F6D2E00257821 /* bus.png in Resources */,
+				ADA41B2C181F6D2E00257821 /* lodging.png in Resources */,
+				ADA41B2D181F6D2E00257821 /* star.png in Resources */,
+				ADA41B2E181F6D2E00257821 /* museum.png in Resources */,
+				ADA41B2F181F6D2E00257821 /* train.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,6 +841,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA41B3B181F754C00257821 /* MapPoint.h in Sources */,
+				ADA41B3C181F754C00257821 /* MapPoint.m in Sources */,
 				AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */,
 				AD127BD8180ED31900762C67 /* WeatherViewController.m in Sources */,
 				1F3AD42117D234B90090042F /* main.m in Sources */,
@@ -840,6 +894,7 @@
 				ADA41B15181F4E6700257821 /* PlugInfo.m in Sources */,
 				ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */,
 				ADA41B1D181F557900257821 /* PlugViewController.m in Sources */,
+				ADA41B34181F719200257821 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -850,6 +905,7 @@
 				1F3AD44917D234BB0090042F /* storyboardTests.m in Sources */,
 				AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */,
 				AD127BD7180ED1BC00762C67 /* WeatherCell.m in Sources */,
+				ADA41B23181F6C9D00257821 /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
