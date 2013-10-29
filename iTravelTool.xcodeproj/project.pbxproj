@@ -119,6 +119,7 @@
 		ADA41B15181F4E6700257821 /* PlugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B14181F4E6700257821 /* PlugInfo.m */; };
 		ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B17181F4E8300257821 /* PlugInfoTest.m */; };
 		ADA41B1A181F54B800257821 /* AustralianPlug.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B19181F54B800257821 /* AustralianPlug.png */; };
+		ADA41B1D181F557900257821 /* PlugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B1C181F557800257821 /* PlugViewController.m */; };
 		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
 		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
@@ -300,6 +301,8 @@
 		ADA41B16181F4E8300257821 /* PlugInfoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugInfoTest.h; sourceTree = "<group>"; };
 		ADA41B17181F4E8300257821 /* PlugInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugInfoTest.m; sourceTree = "<group>"; };
 		ADA41B19181F54B800257821 /* AustralianPlug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AustralianPlug.png; sourceTree = "<group>"; };
+		ADA41B1B181F557800257821 /* PlugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugViewController.h; sourceTree = "<group>"; };
+		ADA41B1C181F557800257821 /* PlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugViewController.m; sourceTree = "<group>"; };
 		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -388,6 +391,8 @@
 				AD127BD6180ED1BC00762C67 /* WeatherCell.m */,
 				AD127BD2180ECE4100762C67 /* WeatherViewController.h */,
 				AD127BD3180ECE5000762C67 /* WeatherViewController.m */,
+				ADA41B1B181F557800257821 /* PlugViewController.h */,
+				ADA41B1C181F557800257821 /* PlugViewController.m */,
 				AD66CA7D181544BA001E364C /* CurrencyViewController.h */,
 				AD66CA7E181544BB001E364C /* CurrencyViewController.m */,
 				1F3AD41B17D234B90090042F /* Supporting Files */,
@@ -834,6 +839,7 @@
 				ADA41B12181F4E0200257821 /* PlugInfo.xcdatamodeld in Sources */,
 				ADA41B15181F4E6700257821 /* PlugInfo.m in Sources */,
 				ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */,
+				ADA41B1D181F557900257821 /* PlugViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,6 +903,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: QUT Mobile Dev (25BQ2GV5FN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -912,6 +919,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C4F15E44-BB7B-48C0-BB61-F8CB590ADDEC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -929,6 +937,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: QUT Mobile Dev (25BQ2GV5FN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -937,6 +946,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C4F15E44-BB7B-48C0-BB61-F8CB590ADDEC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

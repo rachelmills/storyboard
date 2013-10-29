@@ -74,13 +74,18 @@
     
     self.taxiArray = [NSMutableArray arrayWithObjects:taxiInfo1,taxiInfo2, nil];
     
-    TaxiInfoTest *info = [self.taxiArray objectAtIndex:indexPath.row];
+   // TaxiInfoTest *info = [self.taxiArray objectAtIndex:indexPath.row];
     
-    NSLog(@"info = %@", info.taxiCity);
     
-    taxiCell.taxiName.text = info.taxiName;
+ //   NSLog(@"info = %@", info.taxiCity);
+    
+/*    taxiCell.taxiName.text = info.taxiName;
     taxiCell.taxiNumber.text = [NSString stringWithFormat:@"tel:%@", info.taxiNumber];
     taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
+  */
+    taxiCell.taxiName.text = [[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiCity"];
+    
+    
 
     return taxiCell;
 }

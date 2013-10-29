@@ -10,6 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "WeatherViewController.h"
 #import "AppDelegate.h"
+#import "PlugViewController.h"
 
 #import "TaxiViewController.h"
 

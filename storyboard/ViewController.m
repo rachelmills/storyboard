@@ -10,6 +10,8 @@
 #import "WeatherData.h"
 #import "TaxiInfo.h"
 #import "TaxiInfoTest.h"
+#import "PlugInfo.h"
+#import "PlugInfoTest.h"
 
 @interface ViewController ()
 
@@ -23,6 +25,8 @@
 @property (strong, nonatomic) NSMutableArray *weatherArray;
 @property (strong, nonatomic) NSMutableArray *taxiArray;
 @property (strong, nonatomic) NSMutableArray *taxiArray1;
+@property (strong, nonatomic) PlugInfoTest *plug;
+
 
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
@@ -40,7 +44,7 @@
     [self locateMe];
     
     // load taxi information from plist
-    NSString *myListPath = [[NSBundle mainBundle] pathForResource:@"DataPropertyList" ofType:@"plist"];
+    NSString *myListPath = [[NSBundle mainBundle] pathForResource:@"TaxiList" ofType:@"plist"];
     self.taxiArray = [[NSMutableArray alloc]initWithContentsOfFile:myListPath];
 
     NSLog(@"Taxi array is %@",_taxiArray);
@@ -49,11 +53,14 @@
     //    NSLog(@"Taxi name is %@", [_taxiArray].t)
    // }
     
-    TaxiInfoTest *t = [_taxiArray objectAtIndex:0];
+  //  TaxiInfoTest *t = [_taxiArray objectAtIndex:0];
  //   NSLog(@"t name is %@", t.taxiName);
   //  NSLog(@"Taxi name is %@", [_taxiArray objectAtIndex:1]._taxiName);
   //  NSLog(@"Taxi name 1 is %@", [_taxiArray1 objectAtIndex:1]_taxiName);
     
+    // load plug information from plist
+    NSString *plugPath = [[NSBundle mainBundle]pathForResource:@"PlugPropertyList" ofType:@"plist"];
+    self.plug = [[PlugInfoTest alloc] initWithImage:@"AustraliaPlug.png" andPlugType:@"3 Pin Plug" andVoltage:@"240 volts"];
 }
 
 - (UIImage *)createWeatherIcon:(NSString *)icon
@@ -246,6 +253,11 @@
     } else if ([segue.identifier isEqualToString:@"TaxiSegue"]) {
         TaxiViewController *taxiViewController = (TaxiViewController *)segue.destinationViewController;
         taxiViewController.taxiArray = [[NSMutableArray alloc] initWithArray:_taxiArray];
+    } else if ([segue.identifier isEqualToString:@"PlugSeque"]) {
+        PlugViewController *plugViewController = (PlugViewController *)segue.destinationViewController;
+        plugViewController.plugImage = _plug.plugImage;
+        plugViewController.plugType = _plug.plugType;
+        plugViewController.voltage = _plug.voltage;
     }
 
     
