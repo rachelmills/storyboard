@@ -113,6 +113,12 @@
 		AD86888D17FEB45200CF888A /* Cloud-Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD86888417FEB45200CF888A /* Cloud-Moon.png */; };
 		AD8688AC17FEC71C00CF888A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8688AB17FEC71C00CF888A /* Security.framework */; };
 		AD8688B017FED03400CF888A /* Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8688AF17FED03400CF888A /* Cloud.png */; };
+		ADA41B0D181F4BA200257821 /* plug-socket.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B0C181F4BA200257821 /* plug-socket.png */; };
+		ADA41B0F181F4CFF00257821 /* PlugPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B0E181F4CFF00257821 /* PlugPropertyList.plist */; };
+		ADA41B12181F4E0200257821 /* PlugInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */; };
+		ADA41B15181F4E6700257821 /* PlugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B14181F4E6700257821 /* PlugInfo.m */; };
+		ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B17181F4E8300257821 /* PlugInfoTest.m */; };
+		ADA41B1A181F54B800257821 /* AustralianPlug.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B19181F54B800257821 /* AustralianPlug.png */; };
 		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
 		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
@@ -286,6 +292,14 @@
 		AD86888417FEB45200CF888A /* Cloud-Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Moon.png"; sourceTree = "<group>"; };
 		AD8688AB17FEC71C00CF888A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AD8688AF17FED03400CF888A /* Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud.png; sourceTree = "<group>"; };
+		ADA41B0C181F4BA200257821 /* plug-socket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plug-socket.png"; sourceTree = "<group>"; };
+		ADA41B0E181F4CFF00257821 /* PlugPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlugPropertyList.plist; sourceTree = "<group>"; };
+		ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlugInfo.xcdatamodel; sourceTree = "<group>"; };
+		ADA41B13181F4E6700257821 /* PlugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugInfo.h; sourceTree = "<group>"; };
+		ADA41B14181F4E6700257821 /* PlugInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugInfo.m; sourceTree = "<group>"; };
+		ADA41B16181F4E8300257821 /* PlugInfoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugInfoTest.h; sourceTree = "<group>"; };
+		ADA41B17181F4E8300257821 /* PlugInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugInfoTest.m; sourceTree = "<group>"; };
+		ADA41B19181F54B800257821 /* AustralianPlug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AustralianPlug.png; sourceTree = "<group>"; };
 		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -381,6 +395,9 @@
 				AD05B36E181DEFE3001F4130 /* TaxiViewController.m */,
 				AD05B3D1181F1391001F4130 /* TaxiTableViewCell.h */,
 				AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */,
+				ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */,
+				ADA41B13181F4E6700257821 /* PlugInfo.h */,
+				ADA41B14181F4E6700257821 /* PlugInfo.m */,
 			);
 			name = iTravelTool;
 			path = storyboard;
@@ -389,7 +406,10 @@
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADA41B19181F54B800257821 /* AustralianPlug.png */,
+				ADA41B0C181F4BA200257821 /* plug-socket.png */,
 				AD05B3CC181DF568001F4130 /* TaxiList.plist */,
+				ADA41B0E181F4CFF00257821 /* PlugPropertyList.plist */,
 				AD127BCA180ECC8700762C67 /* Tool57.png */,
 				AD127BCC180ECC8E00762C67 /* Tool114.png */,
 				AD86887B17FEB42600CF888A /* Weather */,
@@ -559,6 +579,8 @@
 				AD127BD0180ECD9700762C67 /* WeatherData.m */,
 				AD05B3CE181E434A001F4130 /* TaxiInfoTest.h */,
 				AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */,
+				ADA41B16181F4E8300257821 /* PlugInfoTest.h */,
+				ADA41B17181F4E8300257821 /* PlugInfoTest.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -725,6 +747,9 @@
 				AD66CA8D1818F587001E364C /* Thermometer.png in Resources */,
 				AD66CA8F1818F8C5001E364C /* icon_loading.png in Resources */,
 				AD05B3CD181DF568001F4130 /* TaxiList.plist in Resources */,
+				ADA41B0D181F4BA200257821 /* plug-socket.png in Resources */,
+				ADA41B0F181F4CFF00257821 /* PlugPropertyList.plist in Resources */,
+				ADA41B1A181F54B800257821 /* AustralianPlug.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -806,6 +831,9 @@
 				AD05B3CB181DF4E3001F4130 /* TaxiInfo.m in Sources */,
 				AD05B3D0181E434A001F4130 /* TaxiInfoTest.m in Sources */,
 				AD05B3D3181F1391001F4130 /* TaxiTableViewCell.m in Sources */,
+				ADA41B12181F4E0200257821 /* PlugInfo.xcdatamodeld in Sources */,
+				ADA41B15181F4E6700257821 /* PlugInfo.m in Sources */,
+				ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,6 +1041,16 @@
 			);
 			currentVersion = AD05B3C7181DF45D001F4130 /* TaxiModel.xcdatamodel */;
 			path = TaxiModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */,
+			);
+			currentVersion = ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */;
+			path = PlugInfo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

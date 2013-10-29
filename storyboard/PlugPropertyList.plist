@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>plugImage</key>
+		<string>AustraliaPlug.png</string>
+		<key>plugType</key>
+		<string>3 pin plug</string>
+		<key>voltage</key>
+		<string>240 volts</string>
+	</dict>
+</array>
+</plist>
