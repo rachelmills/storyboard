@@ -7,6 +7,9 @@
 //
 
 #import "TaxiViewController.h"
+#import "TaxiInfo.h"
+#import "TaxiInfoTest.h"
+#import "TaxiTableViewCell.h"
 
 @interface TaxiViewController ()
 
@@ -34,6 +37,12 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"Array count:%d", [self.taxiArray count]);
+    [self.tableView reloadData];
+    [super viewWillAppear:animated];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -55,14 +64,25 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+ 
+    TaxiTableViewCell *taxiCell = (TaxiTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    // Configure the cell...
-    cell.textLabel.text = @"test";
-    cell.detailTextLabel.text = @"detail";
+    TaxiInfoTest *taxiInfo1 = [[TaxiInfoTest alloc] initWithTaxiCity:@"Brisbane" andTaxiName:@"Black & White Cabs" andTaxiNumber:@"133222"];
+    TaxiInfoTest *taxiInfo2 = [[TaxiInfoTest alloc] initWithTaxiCity:@"Brisbane" andTaxiName:@"Yellow Cab Co" andTaxiNumber:@"131924"];
+    
+    self.taxiArray = [[NSMutableArray alloc] init];
+    
+    self.taxiArray = [NSMutableArray arrayWithObjects:taxiInfo1,taxiInfo2, nil];
+    
+    TaxiInfoTest *info = [self.taxiArray objectAtIndex:indexPath.row];
+    
+    NSLog(@"info = %@", info.taxiCity);
+    
+    taxiCell.taxiName.text = info.taxiName;
+    taxiCell.taxiNumber.text = [NSString stringWithFormat:@"tel:%@", info.taxiNumber];
+    taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
 
-    
-    return cell;
+    return taxiCell;
 }
 
 @end

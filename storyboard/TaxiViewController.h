@@ -11,5 +11,6 @@
 @interface TaxiViewController : UITableViewController
 
 @property (strong) NSMutableArray *taxiArray;
+@property (strong) NSObject *taxiInfoTest;
 
 @end

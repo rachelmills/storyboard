@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "WeatherData.h"
+#import "TaxiInfo.h"
+#import "TaxiInfoTest.h"
 
 @interface ViewController ()
 
@@ -19,6 +21,9 @@
 @property (weak, nonatomic) UIImage *weather7;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherView;
 @property (strong, nonatomic) NSMutableArray *weatherArray;
+@property (strong, nonatomic) NSMutableArray *taxiArray;
+@property (strong, nonatomic) NSMutableArray *taxiArray1;
+
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
@@ -36,8 +41,19 @@
     
     // load taxi information from plist
     NSString *myListPath = [[NSBundle mainBundle] pathForResource:@"DataPropertyList" ofType:@"plist"];
-    _taxiArray = [[NSMutableArray alloc]initWithContentsOfFile:myListPath];
+    self.taxiArray = [[NSMutableArray alloc]initWithContentsOfFile:myListPath];
+
     NSLog(@"Taxi array is %@",_taxiArray);
+
+   //  for (TaxiInfo *taxi in _taxiArray) {
+    //    NSLog(@"Taxi name is %@", [_taxiArray].t)
+   // }
+    
+    TaxiInfoTest *t = [_taxiArray objectAtIndex:0];
+ //   NSLog(@"t name is %@", t.taxiName);
+  //  NSLog(@"Taxi name is %@", [_taxiArray objectAtIndex:1]._taxiName);
+  //  NSLog(@"Taxi name 1 is %@", [_taxiArray1 objectAtIndex:1]_taxiName);
+    
 }
 
 - (UIImage *)createWeatherIcon:(NSString *)icon
@@ -235,19 +251,4 @@
     
 }
     
-
-
-/*
-- (IBAction)viewTomorrow:(id)sender {
-    if (_weatherButton.currentImage == _weatherCurrent) {
-        [_weatherButton setImage:_weatherTomorrow forState:UIControlStateNormal];
-    } else {
-        [_weatherButton setImage:_weatherCurrent forState:UIControlStateNormal];
-    }
-        [UIView transitionWithView:_weatherButton duration: 1.5 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{nil;
-    }completion:nil];
-
-    NSLog(@"Button has been tapped");
-}
- */
 @end

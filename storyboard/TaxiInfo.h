@@ -16,4 +16,7 @@
 @property (nonatomic, retain) NSString * taxiName;
 @property (nonatomic, retain) NSString * taxiNumber;
 
+
+-(id)initWithTaxiCity:(NSString *)taxiCity andTaxiName:(NSString *)taxiName andTaxiNumber:(NSString *) taxiNumber;
+
 @end

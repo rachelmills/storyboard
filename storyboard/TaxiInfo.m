@@ -15,4 +15,13 @@
 @dynamic taxiName;
 @dynamic taxiNumber;
 
+- (id)initWithTaxiCity:(NSString *)taxiCity andTaxiName:(NSString *)taxiName andTaxiNumber:(NSString *)taxiNumber {
+    if ((self = [super init])) {
+        self.taxiCity = taxiCity;
+        self.taxiName = taxiName;
+        self.taxiNumber = taxiNumber;
+    }
+         return self;
+}
+
 @end

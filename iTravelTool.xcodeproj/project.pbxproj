@@ -78,7 +78,9 @@
 		AD05B3C5181DF368001F4130 /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3A9181DF368001F4130 /* MagicalRecord.m */; };
 		AD05B3C8181DF45D001F4130 /* TaxiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3C6181DF45D001F4130 /* TaxiModel.xcdatamodeld */; };
 		AD05B3CB181DF4E3001F4130 /* TaxiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3CA181DF4E3001F4130 /* TaxiInfo.m */; };
-		AD05B3CD181DF568001F4130 /* DataPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD05B3CC181DF568001F4130 /* DataPropertyList.plist */; };
+		AD05B3CD181DF568001F4130 /* TaxiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD05B3CC181DF568001F4130 /* TaxiList.plist */; };
+		AD05B3D0181E434A001F4130 /* TaxiInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */; };
+		AD05B3D3181F1391001F4130 /* TaxiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */; };
 		AD127BCB180ECC8700762C67 /* Tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCA180ECC8700762C67 /* Tool57.png */; };
 		AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCC180ECC8E00762C67 /* Tool114.png */; };
 		AD127BD1180ECD9700762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
@@ -233,7 +235,11 @@
 		AD05B3C7181DF45D001F4130 /* TaxiModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiModel.xcdatamodel; sourceTree = "<group>"; };
 		AD05B3C9181DF4E3001F4130 /* TaxiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiInfo.h; sourceTree = "<group>"; };
 		AD05B3CA181DF4E3001F4130 /* TaxiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiInfo.m; sourceTree = "<group>"; };
-		AD05B3CC181DF568001F4130 /* DataPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataPropertyList.plist; sourceTree = "<group>"; };
+		AD05B3CC181DF568001F4130 /* TaxiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TaxiList.plist; sourceTree = "<group>"; };
+		AD05B3CE181E434A001F4130 /* TaxiInfoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiInfoTest.h; sourceTree = "<group>"; };
+		AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiInfoTest.m; sourceTree = "<group>"; };
+		AD05B3D1181F1391001F4130 /* TaxiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiTableViewCell.h; sourceTree = "<group>"; };
+		AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiTableViewCell.m; sourceTree = "<group>"; };
 		AD127BCA180ECC8700762C67 /* Tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool57.png; sourceTree = "<group>"; };
 		AD127BCC180ECC8E00762C67 /* Tool114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool114.png; sourceTree = "<group>"; };
 		AD127BCF180ECD9100762C67 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
@@ -373,6 +379,8 @@
 				1F3AD41B17D234B90090042F /* Supporting Files */,
 				AD05B36D181DEFE3001F4130 /* TaxiViewController.h */,
 				AD05B36E181DEFE3001F4130 /* TaxiViewController.m */,
+				AD05B3D1181F1391001F4130 /* TaxiTableViewCell.h */,
+				AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */,
 			);
 			name = iTravelTool;
 			path = storyboard;
@@ -381,7 +389,7 @@
 		1F3AD41B17D234B90090042F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD05B3CC181DF568001F4130 /* DataPropertyList.plist */,
+				AD05B3CC181DF568001F4130 /* TaxiList.plist */,
 				AD127BCA180ECC8700762C67 /* Tool57.png */,
 				AD127BCC180ECC8E00762C67 /* Tool114.png */,
 				AD86887B17FEB42600CF888A /* Weather */,
@@ -549,6 +557,8 @@
 			children = (
 				AD127BCF180ECD9100762C67 /* WeatherData.h */,
 				AD127BD0180ECD9700762C67 /* WeatherData.m */,
+				AD05B3CE181E434A001F4130 /* TaxiInfoTest.h */,
+				AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -714,7 +724,7 @@
 				AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */,
 				AD66CA8D1818F587001E364C /* Thermometer.png in Resources */,
 				AD66CA8F1818F8C5001E364C /* icon_loading.png in Resources */,
-				AD05B3CD181DF568001F4130 /* DataPropertyList.plist in Resources */,
+				AD05B3CD181DF568001F4130 /* TaxiList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +804,8 @@
 				AD05B3C5181DF368001F4130 /* MagicalRecord.m in Sources */,
 				AD05B3C8181DF45D001F4130 /* TaxiModel.xcdatamodeld in Sources */,
 				AD05B3CB181DF4E3001F4130 /* TaxiInfo.m in Sources */,
+				AD05B3D0181E434A001F4130 /* TaxiInfoTest.m in Sources */,
+				AD05B3D3181F1391001F4130 /* TaxiTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
