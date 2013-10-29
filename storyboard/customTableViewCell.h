@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *weatherDescription;
 @property (weak, nonatomic) IBOutlet UILabel *weatherTemp;
 @property (weak, nonatomic) IBOutlet UILabel *weatherPercentRain;
+@property (weak, nonatomic) IBOutlet UILabel *weatherTitle;
 
 @end

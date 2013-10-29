@@ -73,6 +73,7 @@
     cell.weatherText.text = weatherData.weatherTitle;
     cell.weatherTemp.text = weatherData.weatherTemp;
     cell.weatherPercentRain.text = weatherData.weatherPercentRain;
+    cell.weatherTitle.backgroundColor = weatherData.weatherBGColour;
     
     return cell;
 }

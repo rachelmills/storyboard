@@ -167,9 +167,9 @@
                 
                 [_weatherButton setImage:_weatherCurrent forState:UIControlStateNormal];
                                                                                                             
-                WeatherData *weatherData1 = [[WeatherData alloc] initWithImage:_weatherCurrent andTitle: @"Right now"andSummary:currentSummary andTemp:currentTemperature andPercentRain:weatherPercentRain];
-                WeatherData *weatherData2 = [[WeatherData alloc] initWithImage:_weatherNext andTitle: @"Next 24 hours" andSummary:next24Summary andTemp:next24Temperature andPercentRain:weatherPercentRainNext24];
-                WeatherData *weatherData3 = [[WeatherData alloc] initWithImage:_weather7 andTitle: @"Next 7 days" andSummary:next7DaysSummary andTemp:next7Temperature andPercentRain:weatherPercentRainNext7];
+                WeatherData *weatherData1 = [[WeatherData alloc] initWithImage:_weatherCurrent andTitle: @"Right now"andSummary:currentSummary andTemp:currentTemperature andPercentRain:weatherPercentRain andBGColour:[UIColor greenColor]];
+                WeatherData *weatherData2 = [[WeatherData alloc] initWithImage:_weatherNext andTitle: @"Next 24 hours" andSummary:next24Summary andTemp:next24Temperature andPercentRain:weatherPercentRainNext24 andBGColour:[UIColor grayColor]];
+                WeatherData *weatherData3 = [[WeatherData alloc] initWithImage:_weather7 andTitle: @"Next 7 days" andSummary:next7DaysSummary andTemp:next7Temperature andPercentRain:weatherPercentRainNext7 andBGColour:[UIColor blueColor]];
                 
                 self.weatherArray = [[NSMutableArray alloc] init];
                 

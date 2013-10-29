@@ -15,6 +15,7 @@
 @synthesize weatherImageLabel;
 @synthesize weatherTemp;
 @synthesize weatherPercentRain;
+@synthesize weatherTitle;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
