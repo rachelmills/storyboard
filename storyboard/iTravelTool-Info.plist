@@ -14,8 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>tool57.png</string>
-				<string>tool114.png</string>
+				<string>Tool57.png</string>
+				<string>Tool114.png</string>
 			</array>
 		</dict>
 	</dict>
