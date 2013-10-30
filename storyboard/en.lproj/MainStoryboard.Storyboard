@@ -14,20 +14,13 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bau-7g-CQC">
-                                <rect key="frame" x="26" y="72" width="122" height="122"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="Places of Interest" image="mapicon.png">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <mapView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" mapType="hybrid" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" id="0WT-6a-u9u">
+                                <rect key="frame" x="27" y="73" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="uyl-5g-eM9" kind="push" identifier="MapSegue" id="gtg-FS-fkY"/>
+                                    <outlet property="delegate" destination="4wY-sU-wMt" id="SGK-Uz-pzG"/>
                                 </connections>
-                            </button>
+                            </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i2O-5n-77o">
                                 <rect key="frame" x="26" y="210" width="122" height="122"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -65,6 +58,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="JYa-M0-Qvw" kind="push" identifier="CurrencySegue" id="b7g-rn-pTa"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jR5-2c-woI">
+                                <rect key="frame" x="26" y="72" width="122" height="122"/>
+                                <color key="backgroundColor" red="0.67454570800000002" green="0.76150452710000005" blue="0.93556565049999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Map">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uyl-5g-eM9" kind="push" id="Re7-t6-OB2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dlc-DO-8bQ">
@@ -192,6 +196,8 @@
                     <connections>
                         <outlet property="currencyButton" destination="3Zr-8g-WUF" id="Shf-IQ-nJW"/>
                         <outlet property="currentCity" destination="mdI-dh-jFf" id="zOL-09-10L"/>
+                        <outlet property="mapButton" destination="jR5-2c-woI" id="eTu-d8-BXV"/>
+                        <outlet property="mapView" destination="0WT-6a-u9u" id="voR-q9-yOW"/>
                         <outlet property="temperature" destination="XoR-1A-dta" id="qzs-Qi-qxl"/>
                         <outlet property="updateTime" destination="Yei-G5-SlE" id="NrY-4w-hwi"/>
                         <outlet property="weatherButton" destination="AuM-P3-a3g" id="EaZ-sc-gLP"/>
@@ -929,7 +935,6 @@
         <image name="friendmap.png" width="320" height="105"/>
         <image name="icon_loading.png" width="64" height="64"/>
         <image name="lodging.png" width="32" height="32"/>
-        <image name="mapicon.png" width="120" height="120"/>
         <image name="museum.png" width="32" height="32"/>
         <image name="plug-socket.png" width="25" height="25"/>
         <image name="roadicon.png" width="120" height="120"/>

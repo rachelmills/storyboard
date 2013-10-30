@@ -13,6 +13,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *mapButton;
+
 @property (weak, nonatomic) IBOutlet UIButton *currencyButton;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherIcon;
 @property (weak, nonatomic) IBOutlet UILabel *temperature;
@@ -45,6 +47,21 @@
     return todayString;
 }
 
+- (void)displayMapOnButton:(CLLocation *)location
+{
+    [_mapView setMapType:MKMapTypeStandard];
+    MKCoordinateRegion region;
+    
+    region.center.latitude = _location.coordinate.latitude;
+    region.center.longitude = _location.coordinate.longitude;
+    region.span.latitudeDelta=0.5;
+    region.span.longitudeDelta=0.5;
+
+    [_mapView setRegion:region animated:YES];
+    
+    [_mapView setDelegate:self];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -56,6 +73,15 @@
     [layer setBorderWidth:1.0];
     [layer setBorderColor:[[UIColor grayColor] CGColor]];
     self.currencyButton.backgroundColor = [UIColor colorWithRed: 172.0/255.0 green: 194/255.0 blue:239.0/255.0 alpha: 1.0];
+    
+    CALayer * layerMap = [self.mapButton layer];
+    [layerMap setMasksToBounds:YES];
+    [layerMap setCornerRadius:10.0]; //when radius is 0, the border is a rectangle
+    [layerMap setBorderWidth:1.0];
+    [layerMap setBorderColor:[[UIColor grayColor] CGColor]];
+ //   [layerMap setbackgroundColor:[[UIColor clearColor] CGColor]];
+     layerMap.backgroundColor = [[UIColor clearColor] CGColor];
+  //  self.mapButton.backgroundColor = [UIColor colorWithRed: 172.0/255.0 green: 194/255.0 blue:239.0/255.0 alpha: 1.0];
     
     NSString *dateNow =  self.get_date;
     NSLog(@"date now is %@", dateNow);
@@ -240,6 +266,8 @@
     AFJSONRequestOperation *operation;
     operation = [self getWeather:_location];
     [operation start];
+    
+    [self displayMapOnButton:_location];
     [self getLocation];
     [self stopUpdatingCurrentLocation];
 }
@@ -258,7 +286,7 @@
     } else if ([segue.identifier isEqualToString:@"TaxiSegue"]) {
         TaxiViewController *taxiViewController = (TaxiViewController *)segue.destinationViewController;
         taxiViewController.taxiArray = [[NSMutableArray alloc] initWithArray:_taxiArray];
-    } else if ([segue.identifier isEqualToString:@"PlugSeque"]) {
+    } else if ([segue.identifier isEqualToString:@"PlugSegue"]) {
         PlugViewController *plugViewController = (PlugViewController *)segue.destinationViewController;
         plugViewController.plug = self.plug;
     }
