@@ -83,7 +83,7 @@
     taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
   */
     taxiCell.taxiName.text = [[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiName"];
-    taxiCell.taxiNumber.text = [NSString stringWithFormat:[[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiNumber"]];
+    taxiCell.taxiNumber.text = [NSString stringWithFormat:@"tel: %@",[[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiNumber"]];
     taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
     
     

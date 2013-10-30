@@ -462,22 +462,22 @@
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" editable="NO" text="TaxiNumber" textAlignment="center" id="yJ7-tS-qvx">
                                             <rect key="frame" x="144" y="0.0" width="151" height="41"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="textColor" red="0.023529414087533951" green="0.058823533356189728" blue="0.98431378602981567" alpha="1" colorSpace="deviceRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                                         </textView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="TaxiName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYy-Rd-Shu">
-                                            <rect key="frame" x="0.0" y="0.0" width="144" height="41"/>
+                                            <rect key="frame" x="6" y="0.0" width="138" height="41"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.10792802327693141" green="0.03486845877398323" blue="0.3737444196428571" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <color key="backgroundColor" red="0.67454570800000002" green="0.76150452710000005" blue="0.93556565049999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="taxiName" destination="MYy-Rd-Shu" id="Usf-ZN-0gn"/>
                                     <outlet property="taxiNumber" destination="yJ7-tS-qvx" id="aPd-hx-WSr"/>
