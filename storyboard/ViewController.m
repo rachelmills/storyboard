@@ -34,6 +34,17 @@
 
 @implementation ViewController
 
+- (NSString *)get_date
+{
+    NSString *formatString = [NSDateFormatter dateFormatFromTemplate:@"dd/MM/yyyy HH:mm:ss" options:0
+                                                              locale:[NSLocale currentLocale]];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:formatString];
+    
+    NSString *todayString = [dateFormatter stringFromDate:[NSDate date]];
+    return todayString;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -46,6 +57,11 @@
     [layer setBorderColor:[[UIColor grayColor] CGColor]];
     self.currencyButton.backgroundColor = [UIColor colorWithRed: 172.0/255.0 green: 194/255.0 blue:239.0/255.0 alpha: 1.0];
     
+    NSString *dateNow =  self.get_date;
+    NSLog(@"date now is %@", dateNow);
+    
+    _updateTime.text = [NSString stringWithFormat:@"Last update:  %@", dateNow];
+      
     [self locateMe];
     
     // load taxi information from plist
@@ -230,7 +246,6 @@
 
 - (CLLocation *) getLocation {
     [self locateMe];
-    NSLog(@"Rachel's location is %@", _location);
     return _location;
 }
 

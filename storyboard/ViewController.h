@@ -22,6 +22,7 @@
 
 @property (strong, nonatomic) CLLocation *location;
 @property (weak, nonatomic) IBOutlet UILabel *currentCity;
+@property (weak, nonatomic) IBOutlet UITextField *updateTime;
 
 
 - (CLLocation *) getLocation;

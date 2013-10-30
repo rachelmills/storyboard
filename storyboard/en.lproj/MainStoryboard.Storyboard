@@ -177,6 +177,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UpdateTime" textAlignment="center" minimumFontSize="17" id="Yei-G5-SlE">
+                                <rect key="frame" x="175" y="315" width="118" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67454570800000002" green="0.76150452710000005" blue="0.93556565049999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -185,6 +193,7 @@
                         <outlet property="currencyButton" destination="3Zr-8g-WUF" id="Shf-IQ-nJW"/>
                         <outlet property="currentCity" destination="mdI-dh-jFf" id="zOL-09-10L"/>
                         <outlet property="temperature" destination="XoR-1A-dta" id="qzs-Qi-qxl"/>
+                        <outlet property="updateTime" destination="Yei-G5-SlE" id="NrY-4w-hwi"/>
                         <outlet property="weatherButton" destination="AuM-P3-a3g" id="EaZ-sc-gLP"/>
                         <outlet property="weatherView" destination="Pab-AP-iFG" id="ehp-TD-YBR"/>
                     </connections>
