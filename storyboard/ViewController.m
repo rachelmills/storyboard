@@ -15,6 +15,7 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *currencyButton;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherIcon;
 @property (weak, nonatomic) IBOutlet UILabel *temperature;
 @property (weak, nonatomic) IBOutlet UIButton *weatherButton;
@@ -40,6 +41,12 @@
     [super viewDidLoad];
     
 	// Do any additional setup after loading the view, typically from a nib.
+    CALayer * layer = [self.currencyButton layer];
+    [layer setMasksToBounds:YES];
+    [layer setCornerRadius:10.0]; //when radius is 0, the border is a rectangle
+    [layer setBorderWidth:1.0];
+    [layer setBorderColor:[[UIColor grayColor] CGColor]];
+    self.currencyButton.backgroundColor = [UIColor colorWithRed: 172.0/255.0 green: 194/255.0 blue:239.0/255.0 alpha: 1.0];
     
     [self locateMe];
     
