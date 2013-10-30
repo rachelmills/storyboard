@@ -8,6 +8,7 @@
 
 #import "PlugViewController.h"
 
+
 @interface PlugViewController ()
 
 @end
@@ -26,11 +27,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
-    _plugImage.image = [UIImage imageNamed:@"AustralianPlug.png"];
-    _plugType.text = @"Test";
-    _voltage.text = @"240 volts";
+    // load plug info from property list
+    NSString *plugPath = [[NSBundle mainBundle]pathForResource:@"PlugPropertyList" ofType:@"plist"];
+    NSData *plugPathXML = [[NSFileManager defaultManager] contentsAtPath:plugPath];
+    NSString *errorDesc = nil;
+
+    NSPropertyListFormat format;
+    // convert static property list into array
+    NSArray *temp = [NSPropertyListSerialization propertyListFromData:plugPathXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&format errorDescription:&errorDesc];
+    
+    if (!temp)
+    {
+        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+    }
+    
+    self.plug = [temp objectAtIndex:0];
+
+    _plugImage.image = [UIImage imageNamed:[[temp objectAtIndex:0] objectForKey:@"plugImage"]];
+    _plugType.text = [[temp objectAtIndex:0] objectForKey:@"plugType"];
+    _voltage.text = [[temp objectAtIndex:0] objectForKey:@"voltage"];
     
 }
 

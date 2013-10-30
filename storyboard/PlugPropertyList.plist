@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>plugImage</key>
-		<string>AustraliaPlug.png</string>
+		<string>AustralianPlug.png</string>
 		<key>plugType</key>
 		<string>3 pin plug</string>
 		<key>voltage</key>
