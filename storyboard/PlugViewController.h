@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlugInfoTest.h"
+#import "PlugInfo.h"
 
 @interface PlugViewController : UIViewController
 
@@ -15,6 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *plugType;
 @property (weak, nonatomic) IBOutlet UITextField *voltage;
 
-@property (weak, nonatomic) PlugInfoTest *plug;
+@property (weak, nonatomic) PlugInfo *plug;
 
 @end

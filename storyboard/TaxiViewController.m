@@ -8,7 +8,6 @@
 
 #import "TaxiViewController.h"
 #import "TaxiInfo.h"
-#import "TaxiInfoTest.h"
 #import "TaxiTableViewCell.h"
 
 @interface TaxiViewController ()

@@ -1,5 +1,5 @@
 //
-//  TaxiInfo.h
+//  TaxiInfoTest.h
 //  iTravelTool
 //
 //  Created by Rachel Mills on 28/10/2013.
@@ -7,16 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
 
+@interface TaxiInfo : NSObject
 
-@interface TaxiInfo : NSManagedObject
+@property (strong) NSString *taxiCity;
+@property (strong) NSString *taxiName;
+@property (strong) NSString *taxiNumber;
 
-@property (nonatomic, retain) NSString * taxiCity;
-@property (nonatomic, retain) NSString * taxiName;
-@property (nonatomic, retain) NSString * taxiNumber;
-
-
--(id)initWithTaxiCity:(NSString *)taxiCity andTaxiName:(NSString *)taxiName andTaxiNumber:(NSString *) taxiNumber;
+- (id)initWithTaxiCity:(NSString *)taxiCity andTaxiName:(NSString *)taxiName andTaxiNumber:(NSString *) andTaxiNumber;
 
 @end

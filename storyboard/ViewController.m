@@ -9,9 +9,7 @@
 #import "ViewController.h"
 #import "WeatherData.h"
 #import "TaxiInfo.h"
-#import "TaxiInfoTest.h"
 #import "PlugInfo.h"
-#import "PlugInfoTest.h"
 
 @interface ViewController ()
 
@@ -26,7 +24,7 @@
 @property (strong, nonatomic) NSMutableArray *weatherArray;
 @property (strong, nonatomic) NSMutableArray *taxiArray;
 @property (strong, nonatomic) NSMutableArray *taxiArray1;
-@property (strong, nonatomic) PlugInfoTest *plug;
+@property (strong, nonatomic) PlugInfo *plug;
 
 
 

@@ -50,9 +50,8 @@
 		AD05B367181DEED1001F4130 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05B366181DEED1001F4130 /* SystemConfiguration.framework */; };
 		AD05B369181DEF2C001F4130 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */; };
 		AD05B36F181DEFE3001F4130 /* TaxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B36E181DEFE3001F4130 /* TaxiViewController.m */; };
-		AD05B3C8181DF45D001F4130 /* TaxiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3C6181DF45D001F4130 /* TaxiModel.xcdatamodeld */; };
 		AD05B3CD181DF568001F4130 /* TaxiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD05B3CC181DF568001F4130 /* TaxiList.plist */; };
-		AD05B3D0181E434A001F4130 /* TaxiInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */; };
+		AD05B3D0181E434A001F4130 /* TaxiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3CF181E434A001F4130 /* TaxiInfo.m */; };
 		AD05B3D3181F1391001F4130 /* TaxiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */; };
 		AD127BCB180ECC8700762C67 /* Tool57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCA180ECC8700762C67 /* Tool57.png */; };
 		AD127BCD180ECC8E00762C67 /* Tool114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD127BCC180ECC8E00762C67 /* Tool114.png */; };
@@ -87,8 +86,7 @@
 		AD8688B017FED03400CF888A /* Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8688AF17FED03400CF888A /* Cloud.png */; };
 		ADA41B0D181F4BA200257821 /* plug-socket.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B0C181F4BA200257821 /* plug-socket.png */; };
 		ADA41B0F181F4CFF00257821 /* PlugPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B0E181F4CFF00257821 /* PlugPropertyList.plist */; };
-		ADA41B12181F4E0200257821 /* PlugInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */; };
-		ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B17181F4E8300257821 /* PlugInfoTest.m */; };
+		ADA41B18181F4E8300257821 /* PlugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B17181F4E8300257821 /* PlugInfo.m */; };
 		ADA41B1A181F54B800257821 /* AustralianPlug.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B19181F54B800257821 /* AustralianPlug.png */; };
 		ADA41B1D181F557900257821 /* PlugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B1C181F557800257821 /* PlugViewController.m */; };
 		ADA41B23181F6C9D00257821 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B22181F6C9C00257821 /* MapPoint.m */; };
@@ -172,10 +170,9 @@
 		AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AD05B36D181DEFE3001F4130 /* TaxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiViewController.h; sourceTree = "<group>"; };
 		AD05B36E181DEFE3001F4130 /* TaxiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiViewController.m; sourceTree = "<group>"; };
-		AD05B3C7181DF45D001F4130 /* TaxiModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiModel.xcdatamodel; sourceTree = "<group>"; };
 		AD05B3CC181DF568001F4130 /* TaxiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TaxiList.plist; sourceTree = "<group>"; };
-		AD05B3CE181E434A001F4130 /* TaxiInfoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiInfoTest.h; sourceTree = "<group>"; };
-		AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiInfoTest.m; sourceTree = "<group>"; };
+		AD05B3CE181E434A001F4130 /* TaxiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiInfo.h; sourceTree = "<group>"; };
+		AD05B3CF181E434A001F4130 /* TaxiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiInfo.m; sourceTree = "<group>"; };
 		AD05B3D1181F1391001F4130 /* TaxiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiTableViewCell.h; sourceTree = "<group>"; };
 		AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiTableViewCell.m; sourceTree = "<group>"; };
 		AD127BCA180ECC8700762C67 /* Tool57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tool57.png; sourceTree = "<group>"; };
@@ -226,9 +223,8 @@
 		AD8688AF17FED03400CF888A /* Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud.png; sourceTree = "<group>"; };
 		ADA41B0C181F4BA200257821 /* plug-socket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plug-socket.png"; sourceTree = "<group>"; };
 		ADA41B0E181F4CFF00257821 /* PlugPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlugPropertyList.plist; sourceTree = "<group>"; };
-		ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlugInfo.xcdatamodel; sourceTree = "<group>"; };
-		ADA41B16181F4E8300257821 /* PlugInfoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugInfoTest.h; sourceTree = "<group>"; };
-		ADA41B17181F4E8300257821 /* PlugInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugInfoTest.m; sourceTree = "<group>"; };
+		ADA41B16181F4E8300257821 /* PlugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugInfo.h; sourceTree = "<group>"; };
+		ADA41B17181F4E8300257821 /* PlugInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugInfo.m; sourceTree = "<group>"; };
 		ADA41B19181F54B800257821 /* AustralianPlug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AustralianPlug.png; sourceTree = "<group>"; };
 		ADA41B1B181F557800257821 /* PlugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlugViewController.h; sourceTree = "<group>"; };
 		ADA41B1C181F557800257821 /* PlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlugViewController.m; sourceTree = "<group>"; };
@@ -321,7 +317,6 @@
 				AD127BCE180ECD8700762C67 /* Model */,
 				1F3AD42317D234B90090042F /* AppDelegate.h */,
 				1F3AD42417D234B90090042F /* AppDelegate.m */,
-				AD05B3C6181DF45D001F4130 /* TaxiModel.xcdatamodeld */,
 				1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */,
 				1F3AD43217D234B90090042F /* ViewController.h */,
 				1F3AD43317D234B90090042F /* ViewController.m */,
@@ -342,7 +337,6 @@
 				AD05B36E181DEFE3001F4130 /* TaxiViewController.m */,
 				AD05B3D1181F1391001F4130 /* TaxiTableViewCell.h */,
 				AD05B3D2181F1391001F4130 /* TaxiTableViewCell.m */,
-				ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */,
 			);
 			name = iTravelTool;
 			path = storyboard;
@@ -426,10 +420,10 @@
 			children = (
 				AD127BCF180ECD9100762C67 /* WeatherData.h */,
 				AD127BD0180ECD9700762C67 /* WeatherData.m */,
-				AD05B3CE181E434A001F4130 /* TaxiInfoTest.h */,
-				AD05B3CF181E434A001F4130 /* TaxiInfoTest.m */,
-				ADA41B16181F4E8300257821 /* PlugInfoTest.h */,
-				ADA41B17181F4E8300257821 /* PlugInfoTest.m */,
+				AD05B3CE181E434A001F4130 /* TaxiInfo.h */,
+				AD05B3CF181E434A001F4130 /* TaxiInfo.m */,
+				ADA41B16181F4E8300257821 /* PlugInfo.h */,
+				ADA41B17181F4E8300257821 /* PlugInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -663,11 +657,9 @@
 				AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */,
 				AD66CA8B18167B76001E364C /* CustomTableViewCell.m in Sources */,
 				AD05B36F181DEFE3001F4130 /* TaxiViewController.m in Sources */,
-				AD05B3C8181DF45D001F4130 /* TaxiModel.xcdatamodeld in Sources */,
-				AD05B3D0181E434A001F4130 /* TaxiInfoTest.m in Sources */,
+				AD05B3D0181E434A001F4130 /* TaxiInfo.m in Sources */,
 				AD05B3D3181F1391001F4130 /* TaxiTableViewCell.m in Sources */,
-				ADA41B12181F4E0200257821 /* PlugInfo.xcdatamodeld in Sources */,
-				ADA41B18181F4E8300257821 /* PlugInfoTest.m in Sources */,
+				ADA41B18181F4E8300257821 /* PlugInfo.m in Sources */,
 				ADA41B1D181F557900257821 /* PlugViewController.m in Sources */,
 				ADA41B34181F719200257821 /* MapViewController.m in Sources */,
 			);
@@ -873,29 +865,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AD05B3C6181DF45D001F4130 /* TaxiModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AD05B3C7181DF45D001F4130 /* TaxiModel.xcdatamodel */,
-			);
-			currentVersion = AD05B3C7181DF45D001F4130 /* TaxiModel.xcdatamodel */;
-			path = TaxiModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		ADA41B10181F4E0200257821 /* PlugInfo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */,
-			);
-			currentVersion = ADA41B11181F4E0200257821 /* PlugInfo.xcdatamodel */;
-			path = PlugInfo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1F3AD40917D234B80090042F /* Project object */;
 }

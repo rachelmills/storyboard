@@ -1,5 +1,5 @@
 //
-//  PlugInfo.h
+//  PlugInfoTest.h
 //  iTravelTool
 //
 //  Created by Rachel Mills on 29/10/2013.
@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
 
+@interface PlugInfo : NSObject
 
-@interface PlugInfo : NSManagedObject
+@property (strong) NSString *plugImage;
+@property (strong) NSString *plugType;
+@property (strong) NSString *voltage;
 
-@property (nonatomic, retain) NSString * plugImage;
-@property (nonatomic, retain) NSString * plugType;
-@property (nonatomic, retain) NSString * voltage;
+- (id)initWithImage:(NSString *)plugImage andPlugType:(NSString *)plugType andVoltage:(NSString *) voltage;
 
 @end
