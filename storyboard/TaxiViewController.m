@@ -66,28 +66,10 @@
  
     TaxiTableViewCell *taxiCell = (TaxiTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-   // TaxiInfoTest *taxiInfo1 = [[TaxiInfoTest alloc] initWithTaxiCity:@"Brisbane" andTaxiName:@"Black & White Cabs" andTaxiNumber:@"133222"];
-    //TaxiInfoTest *taxiInfo2 = [[TaxiInfoTest alloc] initWithTaxiCity:@"Brisbane" andTaxiName:@"Yellow Cab Co" andTaxiNumber:@"131924"];
-    
-    //self.taxiArray = [[NSMutableArray alloc] init];
-    
-   // self.taxiArray = [NSMutableArray arrayWithObjects:taxiInfo1,taxiInfo2, nil];
-    
-   // TaxiInfoTest *info = [self.taxiArray objectAtIndex:indexPath.row];
-    
-    
- //   NSLog(@"info = %@", info.taxiCity);
-    
-/*    taxiCell.taxiName.text = info.taxiName;
-    taxiCell.taxiNumber.text = [NSString stringWithFormat:@"tel:%@", info.taxiNumber];
-    taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
-  */
-    taxiCell.taxiName.text = [[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiName"];
+       taxiCell.taxiName.text = [[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiName"];
     taxiCell.taxiNumber.text = [NSString stringWithFormat:@"tel: %@",[[self.taxiArray objectAtIndex:indexPath.row] objectForKey:@"taxiNumber"]];
     taxiCell.taxiNumber.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
     
-    
-
     return taxiCell;
 }
 
