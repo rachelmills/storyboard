@@ -28,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *currentCity;
 @property (weak, nonatomic) IBOutlet UITextField *updateTime;
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UITextField *exchangeRate;
 
 
 - (CLLocation *) getLocation;

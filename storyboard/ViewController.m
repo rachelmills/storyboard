@@ -61,6 +61,14 @@
     
     [_mapView setDelegate:self];
 }
+- (void)displayExchangeRate {
+    NSError *error;
+    NSURL *rateURL = [NSURL URLWithString:@"http://quote.yahoo.com/d/quotes.csv?f=l1&s=AUDEUR=X"];
+    NSString *currentRate = [[NSString alloc] initWithContentsOfURL:rateURL encoding:NSUTF8StringEncoding error:&error];
+    NSLog(@"exchange rate = %@", currentRate);
+    _exchangeRate.text = [NSString stringWithFormat:@"%@",currentRate];
+
+}
 
 - (void)viewDidLoad
 {
@@ -85,6 +93,8 @@
     NSLog(@"date now is %@", dateNow);
     
     _updateTime.text = [NSString stringWithFormat:@"Last update:  %@", dateNow];
+    
+    [self displayExchangeRate];
       
     [self locateMe];
     
