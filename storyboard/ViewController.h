@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
 #import "WeatherViewController.h"
 #import "AppDelegate.h"
 #import "PlugViewController.h"
 #import <MapKit/MapKit.h>
 #import "MapViewController.h"
+
 
 #import "TaxiViewController.h"
 

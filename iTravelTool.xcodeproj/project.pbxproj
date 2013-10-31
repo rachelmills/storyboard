@@ -59,6 +59,7 @@
 		AD127BD7180ED1BC00762C67 /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD6180ED1BC00762C67 /* WeatherCell.m */; };
 		AD127BD8180ED31900762C67 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD3180ECE5000762C67 /* WeatherViewController.m */; };
 		AD127BD9180ED34B00762C67 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD127BD0180ECD9700762C67 /* WeatherData.m */; };
+		AD456B3918223A920051E45B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD456B3818223A920051E45B /* QuartzCore.framework */; };
 		AD5C5384180C229C0081B808 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C5383180C229C0081B808 /* CoreLocation.framework */; };
 		AD66CA7F181544BB001E364C /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA7E181544BB001E364C /* CurrencyViewController.m */; };
 		AD66CA8B18167B76001E364C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA8A18167B76001E364C /* CustomTableViewCell.m */; };
@@ -186,6 +187,7 @@
 		AD3850CD181DE85C00F28647 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD456B3618221ED20051E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.Storyboard; sourceTree = "<group>"; };
 		AD456B37182221D50051E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
+		AD456B3818223A920051E45B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD66CA7D181544BA001E364C /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		AD66CA7E181544BB001E364C /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD456B3918223A920051E45B /* QuartzCore.framework in Frameworks */,
 				ADA41B31181F6FA000257821 /* MapKit.framework in Frameworks */,
 				AD05B369181DEF2C001F4130 /* MobileCoreServices.framework in Frameworks */,
 				AD05B367181DEED1001F4130 /* SystemConfiguration.framework in Frameworks */,
@@ -302,6 +305,7 @@
 		1F3AD41317D234B80090042F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD456B3818223A920051E45B /* QuartzCore.framework */,
 				ADA41B30181F6FA000257821 /* MapKit.framework */,
 				AD05B368181DEF2C001F4130 /* MobileCoreServices.framework */,
 				AD05B366181DEED1001F4130 /* SystemConfiguration.framework */,
