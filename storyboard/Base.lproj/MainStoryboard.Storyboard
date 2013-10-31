@@ -195,7 +195,6 @@
                     <navigationItem key="navigationItem" title="iTravelTool" id="3yG-EN-moM"/>
                     <connections>
                         <outlet property="currencyButton" destination="3Zr-8g-WUF" id="Shf-IQ-nJW"/>
-                        <outlet property="currencyLabel" destination="SIa-Nd-fEY" id="Ke5-Gt-Wml"/>
                         <outlet property="currentCity" destination="mdI-dh-jFf" id="zOL-09-10L"/>
                         <outlet property="mapButton" destination="jR5-2c-woI" id="eTu-d8-BXV"/>
                         <outlet property="mapView" destination="0WT-6a-u9u" id="voR-q9-yOW"/>
@@ -913,7 +912,6 @@
                         <outlet property="AUD" destination="qXy-Uf-Tmg" id="rH1-V1-Ep7"/>
                         <outlet property="EUR" destination="0pn-5H-5gd" id="UWP-IC-YLu"/>
                         <outlet property="amount" destination="m1B-NF-3jw" id="pej-8d-pQf"/>
-                        <outlet property="exchangeRateLabel" destination="Ud5-DA-5ZZ" id="8S5-Mp-2Ve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0F-WN-wxX" sceneMemberID="firstResponder"/>
