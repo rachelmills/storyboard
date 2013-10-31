@@ -105,6 +105,7 @@
 		ADA41B39181F74C200257821 /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B28181F6D2E00257821 /* museum.png */; };
 		ADA41B3A181F74C200257821 /* train.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA41B29181F6D2E00257821 /* train.png */; };
 		ADA41B3C181F754C00257821 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA41B22181F6C9C00257821 /* MapPoint.m */; };
+		ADD1A6E31822187E0073B139 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADD1A6E51822187E0073B139 /* Localization.strings */; };
 		ADE23F5A17D9B8600088533C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5917D9B8600088533C /* Settings.png */; };
 		ADE23F5C17D9BC110088533C /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE23F5B17D9BC110088533C /* currency.png */; };
 /* End PBXBuildFile section */
@@ -136,7 +137,6 @@
 		1F3AD42617D234B90090042F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1F3AD42817D234B90090042F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F3AD42A17D234B90090042F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1F3AD42D17D234B90090042F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.Storyboard; sourceTree = "<group>"; };
 		1F3AD43217D234B90090042F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F3AD43317D234B90090042F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F3AD43A17D234BB0090042F /* iTravelToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTravelToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +184,8 @@
 		AD127BD5180ED1B300762C67 /* WeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCell.h; sourceTree = "<group>"; };
 		AD127BD6180ED1BC00762C67 /* WeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCell.m; sourceTree = "<group>"; };
 		AD3850CD181DE85C00F28647 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD456B3618221ED20051E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.Storyboard; sourceTree = "<group>"; };
+		AD456B37182221D50051E45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
 		AD5C5383180C229C0081B808 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD66CA7D181544BA001E364C /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		AD66CA7E181544BB001E364C /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
@@ -239,6 +241,11 @@
 		ADA41B30181F6FA000257821 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		ADA41B32181F719200257821 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		ADA41B33181F719200257821 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		ADD1A6E01822180D0073B139 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.Storyboard; sourceTree = "<group>"; };
+		ADD1A6E11822180D0073B139 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADD1A6E21822180D0073B139 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADD1A6E41822187E0073B139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		ADD1A6E6182218870073B139 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localization.strings; sourceTree = "<group>"; };
 		ADE23F5917D9B8600088533C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		ADE23F5B17D9BC110088533C /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -312,6 +319,7 @@
 		1F3AD41A17D234B90090042F /* iTravelTool */ = {
 			isa = PBXGroup;
 			children = (
+				ADD1A6E51822187E0073B139 /* Localization.strings */,
 				AD66CA8918167B76001E364C /* CustomTableViewCell.h */,
 				AD66CA8A18167B76001E364C /* CustomTableViewCell.m */,
 				AD127BCE180ECD8700762C67 /* Model */,
@@ -527,6 +535,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
+				Base,
 			);
 			mainGroup = 1F3AD40817D234B80090042F;
 			productRefGroup = 1F3AD41217D234B80090042F /* Products */;
@@ -581,6 +591,7 @@
 				1F0DA59217D8B1B4000CBCDD /* currencylarge.png in Resources */,
 				ADE23F5A17D9B8600088533C /* Settings.png in Resources */,
 				ADE23F5C17D9BC110088533C /* currency.png in Resources */,
+				ADD1A6E31822187E0073B139 /* Localization.strings in Resources */,
 				AD86888517FEB45200CF888A /* Cloud-Hail.png in Resources */,
 				AD86888617FEB45200CF888A /* Cloud-Fog.png in Resources */,
 				AD86888717FEB45200CF888A /* Wind.png in Resources */,
@@ -691,6 +702,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F3AD41E17D234B90090042F /* en */,
+				ADD1A6E11822180D0073B139 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -698,7 +710,8 @@
 		1F3AD42C17D234B90090042F /* MainStoryboard.Storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F3AD42D17D234B90090042F /* en */,
+				ADD1A6E01822180D0073B139 /* fr */,
+				AD456B3618221ED20051E45B /* Base */,
 			);
 			name = MainStoryboard.Storyboard;
 			sourceTree = "<group>";
@@ -707,8 +720,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F3AD44517D234BB0090042F /* en */,
+				ADD1A6E21822180D0073B139 /* fr */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADD1A6E51822187E0073B139 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD1A6E41822187E0073B139 /* en */,
+				ADD1A6E6182218870073B139 /* fr */,
+				AD456B37182221D50051E45B /* Base */,
+			);
+			name = Localization.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

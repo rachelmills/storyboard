@@ -54,8 +54,8 @@
     
     region.center.latitude = _location.coordinate.latitude;
     region.center.longitude = _location.coordinate.longitude;
-    region.span.latitudeDelta=0.5;
-    region.span.longitudeDelta=0.5;
+    region.span.latitudeDelta=0.3;
+    region.span.longitudeDelta=0.3;
 
     [_mapView setRegion:region animated:YES];
     
@@ -65,7 +65,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
 	// Do any additional setup after loading the view, typically from a nib.
     CALayer * layer = [self.currencyButton layer];
     [layer setMasksToBounds:YES];
@@ -76,7 +76,7 @@
     
     CALayer * layerMap = [self.mapButton layer];
     [layerMap setMasksToBounds:YES];
-    [layerMap setCornerRadius:10.0]; //when radius is 0, the border is a rectangle
+    [layerMap setCornerRadius:10.0];
     [layerMap setBorderWidth:1.0];
     [layerMap setBorderColor:[[UIColor grayColor] CGColor]];
      layerMap.backgroundColor = [[UIColor clearColor] CGColor];
@@ -144,21 +144,23 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
                                                                                         success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         NSDictionary *current = [JSON objectForKey:@"currently"];
-                                                                                            
         NSDictionary *next24hours = [JSON objectForKey:@"hourly"];
         NSDictionary *next7Days = [JSON objectForKey:@"daily"];
-                                                                    
+         
+        // current weather detail
         NSString *currentSummary = [current objectForKey:@"summary"];
         NSString *currentIcon = [current objectForKey:@"icon"];
         NSNumber *currentTemp = [current objectForKey:@"temperature"] ;
         NSNumber *currentPercent = [current objectForKey:@"precipProbability"];
-                                                                                            
+        
+        // convert to percent
         float x = roundf(currentTemp.floatValue);
         NSString * currentTemperature = [NSString stringWithFormat:@"%d ℃", (int) x];
         float percentValue = [currentPercent floatValue] * 100;
         currentPercent = [NSNumber numberWithFloat:percentValue];
         NSString *weatherPercentRain = [NSString stringWithFormat:@"%@ %%", currentPercent];
 
+        // next 24 hours weather detail
         NSString *next24Summary = [next24hours objectForKey:@"summary"];
         NSString *next24Icon = [next24hours objectForKey:@"icon"];
         NSArray *array24Hour = [next24hours objectForKey:@"data"];
@@ -170,14 +172,14 @@
         float percentValue24 = [next24Percent floatValue] * 100;
         next24Percent = [NSNumber numberWithFloat:percentValue24];
         NSString *weatherPercentRainNext24 = [NSString stringWithFormat:@"%@ %%", next24Percent];
-                                                                                            
+                       
+        // next 7 days weather detail
         NSString *next7DaysSummary = [next7Days objectForKey:@"summary"];
         NSArray *array7Days = [next7Days objectForKey:@"data"];
         NSDictionary *item7Days = [array7Days objectAtIndex:0.0];
         NSString *next7DaysIcon = [next7Days objectForKey:@"icon"];
         NSNumber *next7DaysTemp = [item7Days objectForKey:@"temperatureMax"];
         NSNumber *next7DaysPercent = [item7Days objectForKey:@"precipProbability"];
-
         float z = roundf(next7DaysTemp.floatValue);
         NSString *next7Temperature = [NSString stringWithFormat:@"%d ℃", (int) z];
         float percentValue7 = [next7DaysPercent floatValue] * 100;

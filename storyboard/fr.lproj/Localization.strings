@@ -1,0 +1,16 @@
+/* 
+  Localization.strings
+  iTravelTool
+
+  Created by Rachel Mills on 31/10/2013.
+  Copyright (c) 2013 . All rights reserved.
+*/
+"Currency Rate" = "Monnai?";
+
+"Currency" = "Monnai?";
+
+"Exchange Rate" = "le taux de change";
+
+"Input Amount to Convert" = "Input Amount to Convert";
+
+"Convert" = "Convert";
