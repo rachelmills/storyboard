@@ -66,6 +66,7 @@
     NSURL *rateURL = [NSURL URLWithString:@"http://quote.yahoo.com/d/quotes.csv?f=l1&s=AUDEUR=X"];
     NSString *currentRate = [[NSString alloc] initWithContentsOfURL:rateURL encoding:NSUTF8StringEncoding error:&error];
     NSLog(@"exchange rate = %@", currentRate);
+ //   NSString *currentRateShort = [NSString stringWithFormat:@"%.2f", floatVal];
     _exchangeRate.text = [NSString stringWithFormat:@"%@",currentRate];
 
 }
