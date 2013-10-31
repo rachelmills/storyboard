@@ -36,7 +36,7 @@
 
 @implementation ViewController
 
-- (NSString *)get_date
+- (NSString *)getDate
 {
     NSString *formatString = [NSDateFormatter dateFormatFromTemplate:@"dd/MM/yyyy HH:mm:ss" options:0
                                                               locale:[NSLocale currentLocale]];
@@ -79,11 +79,9 @@
     [layerMap setCornerRadius:10.0]; //when radius is 0, the border is a rectangle
     [layerMap setBorderWidth:1.0];
     [layerMap setBorderColor:[[UIColor grayColor] CGColor]];
- //   [layerMap setbackgroundColor:[[UIColor clearColor] CGColor]];
      layerMap.backgroundColor = [[UIColor clearColor] CGColor];
-  //  self.mapButton.backgroundColor = [UIColor colorWithRed: 172.0/255.0 green: 194/255.0 blue:239.0/255.0 alpha: 1.0];
     
-    NSString *dateNow =  self.get_date;
+    NSString *dateNow =  self.getDate;
     NSLog(@"date now is %@", dateNow);
     
     _updateTime.text = [NSString stringWithFormat:@"Last update:  %@", dateNow];
@@ -146,6 +144,7 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
                                                                                         success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         NSDictionary *current = [JSON objectForKey:@"currently"];
+                                                                                            
         NSDictionary *next24hours = [JSON objectForKey:@"hourly"];
         NSDictionary *next7Days = [JSON objectForKey:@"daily"];
                                                                     
@@ -160,12 +159,12 @@
         currentPercent = [NSNumber numberWithFloat:percentValue];
         NSString *weatherPercentRain = [NSString stringWithFormat:@"%@ %%", currentPercent];
 
-                                             
         NSString *next24Summary = [next24hours objectForKey:@"summary"];
         NSString *next24Icon = [next24hours objectForKey:@"icon"];
-        NSNumber *next24Temp = [next24hours objectForKey:@"temperature"];
-        NSNumber *next24Percent = [next24hours objectForKey:@"precipProbability"];
-                                                                                            
+        NSArray *array24Hour = [next24hours objectForKey:@"data"];
+        NSDictionary *item24Hour = [array24Hour objectAtIndex:0.0];
+        NSNumber *next24Percent = [item24Hour objectForKey:@"precipProbability"];
+        NSNumber *next24Temp = [item24Hour objectForKey:@"temperature"];
         float y = roundf(next24Temp.floatValue);
         NSString *next24Temperature = [NSString stringWithFormat:@"%d ℃", (int) y];
         float percentValue24 = [next24Percent floatValue] * 100;
@@ -173,16 +172,11 @@
         NSString *weatherPercentRainNext24 = [NSString stringWithFormat:@"%@ %%", next24Percent];
                                                                                             
         NSString *next7DaysSummary = [next7Days objectForKey:@"summary"];
+        NSArray *array7Days = [next7Days objectForKey:@"data"];
+        NSDictionary *item7Days = [array7Days objectAtIndex:0.0];
         NSString *next7DaysIcon = [next7Days objectForKey:@"icon"];
-        NSNumber *next7DaysTemp = [next7Days objectForKey:@"temperature"];
-        NSNumber *next7DaysPercent = [next7Days objectForKey:@"precipProbability"];
-
-                                                
-        NSLog(@"temperature is: %@", [NSString stringWithFormat:@"%@", [current objectForKey:@"temperature"]]);
-        NSLog(@"temperature is: %f", currentTemp.floatValue);
-                                                                
-        NSLog(@"temperature is: %@", currentTemperature);
-        NSLog(@"next temp is: %@", next24Temp);
+        NSNumber *next7DaysTemp = [item7Days objectForKey:@"temperatureMax"];
+        NSNumber *next7DaysPercent = [item7Days objectForKey:@"precipProbability"];
 
         float z = roundf(next7DaysTemp.floatValue);
         NSString *next7Temperature = [NSString stringWithFormat:@"%d ℃", (int) z];
@@ -258,6 +252,10 @@
             placemark = [placemarks lastObject];
             
             _currentCity.text = [NSString stringWithFormat:@"%@",placemark.locality];
+            if (placemark.locality == NULL) {
+                _currentCity.text = [NSString stringWithFormat:@"%@", placemark.country];
+            }
+            
         } else {
             NSLog(@"%@", error.debugDescription);
         }
